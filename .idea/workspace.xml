@@ -1,0 +1,718 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="da2293c7-eced-44ac-9718-78aeb317e332" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Challenge.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/framework/base/Base.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/framework/base/BasePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/framework/base/Browser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/framework/base/DriverContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/framework/base/FrameworkInitialize.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/framework/config/ConfigReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/framework/config/GlobalConfig.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/framework/config/Settings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/framework/utilities/CucumberUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/framework/utilities/ExcelUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/framework/utilities/LogUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/test/data/data-driven/data.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/test/runner/TestRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/test/steps/TestInitialize.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/framework/base/Base.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/framework/base/BasePage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/framework/base/Browser$BrowserType.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/framework/base/Browser.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/framework/base/DriverContext$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/framework/base/DriverContext.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/framework/base/FrameworkInitialize$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/framework/base/FrameworkInitialize.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/framework/config/ConfigReader.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/framework/config/GlobalConfig.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/framework/config/Settings.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/framework/utilities/CucumberUtil$DataCollection.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/framework/utilities/CucumberUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/framework/utilities/ExcelUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/framework/utilities/LogUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/test/runner/TestRunner.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/test/steps/TestInitialize.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/test/runner/TestRunner.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/test/steps/TestInitialize.class" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/test/steps/TestInitialize.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="260">
+              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/test/runner/TestRunner.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="25" column="24" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
+              <folding>
+                <element signature="method#Screenshot#0;class#TestRunner#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/framework/config/GlobalConfig.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="40">
+              <caret line="2" selection-start-line="2" selection-end-line="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Gradle Kotlin DSL Settings" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>excel</find>
+      <find>proper</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/framework/utilities/CucumberUtil.java" />
+        <option value="$PROJECT_DIR$/src/test/test/features/VerificarPesquisaDeMedicos.feature" />
+        <option value="$PROJECT_DIR$/src/test/MyStepdefs.java" />
+        <option value="$PROJECT_DIR$/src/test/test/steps/MyStepdefs.java" />
+        <option value="$PROJECT_DIR$/src/test/test/pages/MenuPrincipalPage.java" />
+        <option value="$PROJECT_DIR$/src/framework/utilities/ExcelUtil.java" />
+        <option value="$PROJECT_DIR$/src/test/test/steps/BuscaMedicaSteps.java" />
+        <option value="$PROJECT_DIR$/src/test/test/steps/MenuPrincipalSteps.java" />
+        <option value="$PROJECT_DIR$/src/test/test/features/RealizarPesquisaDeMedicos.feature" />
+        <option value="$PROJECT_DIR$/src/test/test/pages/GuiaMedicoPage.java" />
+        <option value="$PROJECT_DIR$/src/test/test/steps/GuiaMedicoSteps.java" />
+        <option value="$PROJECT_DIR$/src/framework/base/Base.java" />
+        <option value="$PROJECT_DIR$/src/framework/base/Browser.java" />
+        <option value="$PROJECT_DIR$/src/framework/base/FrameworkInitialize.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/framework/base/DriverContext.java" />
+        <option value="$PROJECT_DIR$/src/framework/base/BasePage.java" />
+        <option value="$PROJECT_DIR$/src/framework/utilities/LogUtil.java" />
+        <option value="$PROJECT_DIR$/src/framework/config/ConfigReader.java" />
+        <option value="$PROJECT_DIR$/src/framework/config/Settings.java" />
+        <option value="$PROJECT_DIR$/src/test/test/steps/TestInitialize.java" />
+        <option value="$PROJECT_DIR$/src/framework/config/GlobalConfig.properties" />
+        <option value="$PROJECT_DIR$/src/test/test/runner/TestRunner.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
+    <option name="width" value="1938" />
+    <option name="height" value="1048" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="projetoBDD" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test-Paycertify" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="projetoBDD" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test-Paycertify" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="projetoBDD" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test-Paycertify" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="framework" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="projetoBDD" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test-Paycertify" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="framework" type="462c0819:PsiDirectoryNode" />
+              <item name="base" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="projetoBDD" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test-Paycertify" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="framework" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="projetoBDD" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test-Paycertify" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="framework" type="462c0819:PsiDirectoryNode" />
+              <item name="utilities" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="projetoBDD" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test-Paycertify" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="projetoBDD" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test-Paycertify" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="projetoBDD" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test-Paycertify" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="projetoBDD" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test-Paycertify" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="data-driven" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="projetoBDD" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test-Paycertify" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="runner" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="projetoBDD" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test-Paycertify" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="steps" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1568753344495" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Stefanini\Documents\Pessoal\desafio\desafioqa\Desafio1\src\test\test\data\massa" />
+      <recent name="C:\Users\Stefanini\Documents\Pessoal\desafio\desafioqa\Desafio1\src\framework\config" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="test.pages" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="framework.utilities" />
+      <recent name="test.steps" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Stefanini\Documents\Pessoal\desafio\desafioqa\Desafio1\src\test\test\runner" />
+      <recent name="C:\Users\Stefanini\Documents\Pessoal\desafio\desafioqa\Desafio1\src\framework\utilities" />
+      <recent name="C:\Users\Stefanini\Documents\Pessoal\desafio\desafioqa\Desafio1\src\framework\base" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.TestRunner">
+    <configuration name="Feature: RealizarPesquisaDeMedicos" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="3" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/test/features/RealizarPesquisaDeMedicos.feature" />
+      <option name="GLUE" value="test.steps" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="Desafio1" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm3SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: RealizarPesquisaDeMedicos" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestRunner" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
+      <module name="Desafio1" />
+      <option name="PACKAGE_NAME" value="test.runner" />
+      <option name="MAIN_CLASS_NAME" value="test.runner.TestRunner" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <module name="testPayCertify" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <module name="testPayCertify" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Cucumber java.Feature: RealizarPesquisaDeMedicos" />
+      <item itemvalue="JUnit.TestRunner" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Cucumber java.Feature: RealizarPesquisaDeMedicos" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="da2293c7-eced-44ac-9718-78aeb317e332" name="Default Changelist" comment="" />
+      <created>1566162463066</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1566162463066</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="TestRunner - 2019.08.18 at 21h 52m 52s.xml">
+      <configuration name="TestRunner" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestRunner - 2019.08.18 at 21h 54m 50s.xml">
+      <configuration name="TestRunner" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestRunner - 2019.08.18 at 21h 55m 52s.xml">
+      <configuration name="TestRunner" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestRunner - 2019.08.18 at 21h 56m 43s.xml">
+      <configuration name="TestRunner" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestRunner - 2019.08.18 at 21h 57m 09s.xml">
+      <configuration name="TestRunner" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestRunner - 2019.08.19 at 10h 46m 29s.xml">
+      <configuration name="TestRunner" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestRunner - 2019.08.19 at 10h 47m 12s.xml">
+      <configuration name="TestRunner" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestRunner - 2019.08.19 at 10h 51m 37s.xml">
+      <configuration name="TestRunner" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestRunner - 2019.08.19 at 10h 52m 01s.xml">
+      <configuration name="TestRunner" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestRunner - 2019.08.19 at 10h 59m 03s.xml">
+      <configuration name="TestRunner" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18322147" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.29886687" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3385269" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.3286119" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+    </layout>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/.." />
+    </ignored-roots>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/framework/utilities/ExcelUtil.java</url>
+          <line>19</line>
+          <properties />
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>Workbook.getWorkbook(new File(ExcelSheetPath))</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/util/function/Consumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="48" column="9" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/framework/utilities/CucumberUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="12" column="86" selection-start-line="12" selection-start-column="86" selection-end-line="12" selection-end-column="86" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/io/File.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="276" selection-start-line="276" selection-end-line="276" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/test/pages/MenuPrincipalPage.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/test/data/screenshotsValidar a pesquisa de médicos por especialidade e cidade - 18082019210887.png" />
+    <entry file="jar://$MAVEN_REPOSITORY$/net/sourceforge/jexcelapi/jxl/2.6.12/jxl-2.6.12.jar!/jxl/Workbook.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="54" selection-start-line="54" selection-end-line="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/test/data/screenshotsValidar a pesquisa de médicos por especialidade e cidade - 19082019100885.png" />
+    <entry file="jar://$MAVEN_REPOSITORY$/io/cucumber/cucumber-core/4.2.0/cucumber-core-4.2.0.jar!/cucumber/runtime/Utils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="313">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/framework/utilities/ExcelUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1074#1075#0" expanded="true" />
+            <element signature="e#1136#1137#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/test/features/RealizarPesquisaDeMedicos.feature" />
+    <entry file="file://$PROJECT_DIR$/src/test/test/steps/GuiaMedicoSteps.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/test/steps/MenuPrincipalSteps.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/test/pages/GuiaMedicoPage.java" />
+    <entry file="file://$PROJECT_DIR$/src/framework/base/Base.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="10" column="74" selection-start-line="10" selection-start-column="74" selection-end-line="10" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/framework/base/Browser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/framework/base/DriverContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="82">
+          <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/framework/base/FrameworkInitialize.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1100">
+          <caret line="68" selection-start-line="68" selection-end-line="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/framework/base/BasePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="9" column="31" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Challenge.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="21" column="38" lean-forward="true" selection-start-line="21" selection-start-column="38" selection-end-line="21" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/framework/utilities/LogUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="23" column="50" lean-forward="true" selection-start-line="23" selection-start-column="50" selection-end-line="23" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/framework/config/extent-config.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/framework/utilities/ReportingUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/framework/config/Settings.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/framework/config/ConfigReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/framework/config/GlobalConfig.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/test/steps/TestInitialize.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/test/runner/TestRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="25" column="24" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
+          <folding>
+            <element signature="method#Screenshot#0;class#TestRunner#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>testPayCertify</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: com.aventstack:extentreports-cucumber4-adapter:1.0.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
