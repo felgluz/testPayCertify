@@ -28,7 +28,8 @@ public class TestInitialize extends FrameworkInitialize {
         Settings.Logs.Write("Browser initialized");
         Settings.ExcelSheet = new ExcelUtil(Settings.ExcelSheetPath);
 
-        DriverContext.Browser.GoToUrl(Settings.AUT + Settings.UrlPokedex);
+        DriverContext.Browser.Maximize();
+        DriverContext.AcceptCookies();
     }
 
     @After
@@ -36,7 +37,6 @@ public class TestInitialize extends FrameworkInitialize {
         if (scenario.isFailed()) {
             TakeScreenshot(scenario);
         }
-        DriverContext.Driver.close();
         DriverContext.Driver.quit();
     }
 }

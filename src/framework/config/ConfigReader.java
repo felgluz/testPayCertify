@@ -17,12 +17,14 @@ public class ConfigReader {
         p.load(getClass().getResourceAsStream("GlobalConfig.properties"));
 
         Settings.AUT = p.getProperty("AUT");
-        Settings.UrlPokedex = p.getProperty("UrlPokedex");
 
         Settings.LogPath = p.getProperty("LogPath");
         Settings.BrowserType = Browser.BrowserType.valueOf(p.getProperty("BrowserType"));
         Settings.ExcelSheetPath = p.getProperty("ExcelSheetPath");
         Settings.ScreenshotPath = p.getProperty("ScreenshotPath");
         Settings.ReportConfigPath = p.getProperty("ReportConfigPath");
+
+        String Path = System.getProperty("user.dir");
+        Settings.ProjectPath = p.getProperty(Path);
     }
 }

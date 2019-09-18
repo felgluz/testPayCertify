@@ -45,7 +45,7 @@ public class FrameworkInitialize extends Base {
                 break;
             }
             case Firefox: {
-                //--
+                //TODO set others drivers
                 break;
             }
         }
@@ -55,7 +55,7 @@ public class FrameworkInitialize extends Base {
         DriverContext.Browser = new Browser(driver);
 
         ConfigureAuth(
-                "y5g4schr"
+                "Q1mchTyd"
         );
     }
 

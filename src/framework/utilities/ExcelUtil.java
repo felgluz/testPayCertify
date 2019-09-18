@@ -19,8 +19,6 @@ public class ExcelUtil {
         //Initialize
         wrkbook = Workbook.getWorkbook(new File(ExcelSheetPath));
         wrksheet = wrkbook.getSheet("Massa");
-
-        //Chamar o dicionário de colunas para gravar os nomes das colunas
         ColumnDictionary();
     }
 
@@ -34,7 +32,6 @@ public class ExcelUtil {
         return wrksheet.getCell(column, row).getContents();
     }
 
-    //Método fazendo overload
     public static String ReadCell(String columName, int rowNumber) {
         return ReadCell(GetCell(columName), rowNumber);
     }

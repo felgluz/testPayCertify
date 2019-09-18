@@ -7,7 +7,6 @@ import framework.utilities.LogUtil;
 public class Settings {
 
     public static String AUT;
-    public static String UrlPokedex;
 
     public static String LogPath;
     public static LogUtil Logs;
@@ -19,4 +18,6 @@ public class Settings {
 
     public static String ReportConfigPath;
 
+    //TODO use the project path
+    public static String ProjectPath;
 }

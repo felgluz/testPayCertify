@@ -19,11 +19,9 @@ import java.io.UnsupportedEncodingException;
 @CucumberOptions(
         monochrome = true,
         features = {"src/test/test/features/"},
-        dryRun = false,
-        strict = false,
         glue = {"test.steps"},
 
-        tags = {"@wip"},
+        //tags = {"@wip"},
         plugin = {"pretty", "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:" +
                 "src/test/test/data-driven/"
         }
@@ -36,7 +34,6 @@ public class TestRunner {
         ExtentReports extentReports = new ExtentReports();
         extentReports.flush();
         extentReports.setGherkinDialect("pt");
-
     }
 
     @AfterClass()

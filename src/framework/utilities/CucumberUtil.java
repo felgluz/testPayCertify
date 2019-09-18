@@ -29,7 +29,7 @@ public class CucumberUtil {
         return _dataCollection;
     }
 
-    //Pega todas as linhas
+    //Get all the rows
     public static String GetCellValueWithRowIndex(String nomeColuna, int numeroLinha){
         final String[] columnValue = {null};
 

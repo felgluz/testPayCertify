@@ -91,7 +91,10 @@ public class DriverContext {
     }
 
     private static ExpectedCondition<Boolean> textDisplayed(final By elementFindBy, String text) {
-        return webDriver -> webDriver.findElement(elementFindBy).getText().contains(text);
+        return webDriver -> {
+            assert webDriver != null;
+            return webDriver.findElement(elementFindBy).getText().contains(text);
+        };
     }
 
     public static void WaitForElementEnabled(final By elementFindBy) {
@@ -121,8 +124,7 @@ public class DriverContext {
     }
 
     public static String GetFieldAttribute(String attribute, final WebElement element) {
-        WebElement inputBox = element;
-        String textInsideInputBox = inputBox.getAttribute(attribute);
+        String textInsideInputBox = element.getAttribute(attribute);
 
         if (textInsideInputBox.isEmpty()) {
             System.out.println("Input field is empty");
@@ -204,5 +206,21 @@ public class DriverContext {
         builder.moveToElement(hoverElement).perform();
     }
 
+    public static void AcceptCookies() {
+        DriverContext.Driver.findElement(By.id("cookie-dismisser")).click();
+    }
+
+    public static WebElement GetElementDisplayedInArray(List<WebElement> elements) {
+        WebDriverWait wait = new WebDriverWait(Driver, 20);
+        for (WebElement element : elements)
+            if (
+                    element.isEnabled()
+                            && element.isDisplayed()
+                            && element.getSize().getHeight() > 0
+                            && element.getSize().getWidth() > 0) {
+                return wait.until(ExpectedConditions.visibilityOf(element));
+            }
+        throw new NullPointerException();
+    }
 }
 

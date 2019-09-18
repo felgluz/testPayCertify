@@ -31,5 +31,4 @@ public class Browser {
         _driver.manage().window().maximize();
     }
 
-
 }
