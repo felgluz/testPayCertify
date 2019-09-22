@@ -10,7 +10,10 @@ public class PokedexTest extends TestInitialize {
     //todo make the selenium test
     @Test
     public void Pokedex(){
-        DriverContext.Driver.findElement(By.cssSelector(""));
+        //Search for pokemon details
+        //| Type | Weakness | Ability | Height          |
+        //| Fire | Water    | Blaze   | Medium and Tall |
     }
+    //  Scenario: Reset filters
 
 }

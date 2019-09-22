@@ -7,8 +7,6 @@ import cucumber.api.java.en.When;
 import framework.base.Base;
 import framework.base.DriverContext;
 import framework.config.Settings;
-import framework.utilities.CucumberUtil;
-import io.cucumber.datatable.DataTable;
 import org.junit.Assert;
 import test.pages.AdvancedSearchPage;
 import test.pages.PokedexPage;
@@ -16,7 +14,7 @@ import framework.base.SharedDataBetweenPage;
 
 public class PokedexSteps extends Base {
 
-    private SharedDataBetweenPage sharedDataBetweenPage;
+    private SharedDataBetweenPage sharedData;
 
     @Given("user access the pokedex page")
     public void userAccessThePokedexPage() {
@@ -33,8 +31,8 @@ public class PokedexSteps extends Base {
 
     @When("user searches a pokemon by {string}")
     public void userSearchesAPokemonBy(String search) {
-        sharedDataBetweenPage = new SharedDataBetweenPage(search);
-        sharedDataBetweenPage.setStringData(search);
+        sharedData = new SharedDataBetweenPage(search);
+        sharedData.setStringData(search);
 
         CurrentPage.As(PokedexPage.class).EnterText(search);
         CurrentPage.As(PokedexPage.class).ClickBtnSearch();
@@ -43,18 +41,19 @@ public class PokedexSteps extends Base {
     @Then("the result {string} is displayed")
     public void theResultIsDisplayed(String result) {
 
+        CurrentPage = GetInstance(PokedexPage.class).As(PokedexPage.class);
         switch (result) {
             case "Electrode":
                 Assert.assertTrue("Pokemon not displayed",
-                        CurrentPage.As(PokedexPage.class).GetPokemon(sharedDataBetweenPage.getStringData()));
+                        CurrentPage.As(PokedexPage.class).GetPokemon(sharedData.getStringData()));
                 break;
             case "Pikachu":
                 Assert.assertTrue("Pokemon not displayed",
-                        CurrentPage.As(PokedexPage.class).GetPokemon(sharedDataBetweenPage.getStringData()));
+                        CurrentPage.As(PokedexPage.class).GetPokemon(sharedData.getStringData()));
                 break;
             case "List of pokemons":
                 Assert.assertTrue("Pokemons not displayed",
-                        CurrentPage.As(PokedexPage.class).GetPokemon(sharedDataBetweenPage.getStringData()));
+                        CurrentPage.As(PokedexPage.class).GetPokemon(sharedData.getStringData()));
                 break;
             case "No pokemon matched":
                 Assert.assertTrue("Pokemon not displayed",
@@ -66,31 +65,37 @@ public class PokedexSteps extends Base {
     @Given("user opens the advanced search")
     public void userOpensTheAdvancedSearch() {
         CurrentPage.As(PokedexPage.class).OpenAdvancedSearch();
+        CurrentPage = GetInstance(AdvancedSearchPage.class);
     }
 
-    @When("enter the following details")
-    public void enterTheFollowingDetails(DataTable data) {
-        CucumberUtil.ConvertDataTableToDict(data);
-
-        CurrentPage = GetInstance(AdvancedSearchPage.class);
-        DriverContext.ScrollDownUntilTextVisibled("Hide Advanced Search");
-
-        CurrentPage.As(AdvancedSearchPage.class).SelectDetails(
-                CucumberUtil.GetCellValueWithRowIndex("Type", 1),
-                CucumberUtil.GetCellValueWithRowIndex("Weakness", 1),
-                CucumberUtil.GetCellValueWithRowIndex("Ability", 1),
-                CucumberUtil.GetCellValueWithRowIndex("Height", 1)
-        );
+    @Then("a list with {int} pokemons is shown")
+    public void aListWithPokemonsAreShown(int numberOfPokemons) {
+        Assert.assertEquals(numberOfPokemons, CurrentPage.As(PokedexPage.class).GetNumberOfPokemons());
     }
 
     @And("click on search button in advanced search")
     public void clickOnSearchButtonInAdvancedSearch() {
-        CurrentPage = GetInstance(PokedexPage.class);
-        CurrentPage.As(PokedexPage.class).ClickBtnSearch();
+        CurrentPage.As(AdvancedSearchPage.class).ClickBtnSearch();
     }
 
-    @Then("a list with {int} pokemons are shown")
-    public void aListWithPokemonsAreShown(int numberOfPokemons) {
-        Assert.assertEquals(CurrentPage.As(PokedexPage.class).GetNumberOfPokemons(), numberOfPokemons);
+    @When("set number range to {string} and {string}")
+    public void setNumberRangeToAnd(String minRange, String maxRange) {
+        CurrentPage.As(AdvancedSearchPage.class).SetNumberRange(minRange, maxRange);
+    }
+
+    @When("user clicks on surprise me button")
+    public void userClicksOnSurpriseMeButton() {
+        CurrentPage.As(PokedexPage.class).ClickBtnSurpriseMe();
+    }
+
+    @When("change the sort filter to {string}")
+    public void changeTheSortFilterTo(String resultFilter) {
+        CurrentPage.As(PokedexPage.class).SetResultFilter(resultFilter);
+    }
+
+    @Then("a list of pokemons starting with word {string} is shown")
+    public void aListOfPokemonsStartingWithLetterIsShown(String word) {
+        Assert.assertTrue("Pokemons not displayed",
+                CurrentPage.As(PokedexPage.class).GetPokemon(word));
     }
 }

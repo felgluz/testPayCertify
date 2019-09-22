@@ -144,10 +144,18 @@ public class DriverContext {
         return true;
     }
 
-    public static void ScrollDownUntilTextVisibled(String text) {
+    public static void ScrollDownUntilPixel(String pixelPosition) {
         JavascriptExecutor js = (JavascriptExecutor) Driver;
-        WebElement element = Driver.findElement(By.xpath(String.format("//*[contains(text(),'%s')]", text)));
-        js.executeScript("arguments[0].scrollIntoView();", element);
+        js.executeScript("window.scrollBy(0," + pixelPosition + ")");
+    }
+
+    public static void GetElementWithinOptions(WebElement parentElement, By tagName, String getText){
+        List<WebElement> table = parentElement.findElements(tagName);
+        for (WebElement element : table) {
+            if (element.getText().equals(getText)) {
+                element.click();
+            }
+        }
     }
 }
 

@@ -18,14 +18,18 @@ public class PokedexPage extends BasePage {
     WebElement txtSearchInput;
     @FindBy(id = "search")
     WebElement btnSearch;
-    @FindBy(css = ".filter-toggle-span .text")
+    @FindBy(css = ".filterOptions-toggle-span .text")
     WebElement btnShowAdvancedSearch;
     @FindBy(css = "[class='alert alert-error']")
     WebElement alertNoPokemonMatched;
-
     @FindBy(css = "[class='results'] [class='animating']")
     List<WebElement> resultOfPokemons;
-
+    @FindBy(id = "shuffle")
+    WebElement btnSurpriseMe;
+    @FindBy(xpath = "//div[@class='pokemon-info']//h5")
+    By animation;
+    @FindBy(xpath = "//*[@class='custom-select-menu']/ul")
+    WebElement filterOptions;
 
     public boolean IsOpen() {
         return txtSearchInput.isDisplayed();
@@ -39,7 +43,7 @@ public class PokedexPage extends BasePage {
     public boolean GetPokemon(String pokemonName) {
         String locatePokemon = String.format("//div[@class='pokemon-info']//h5[contains(text(),'%s') or contains(text(),'%s')]",
                 pokemonName.toUpperCase(), pokemonName.toLowerCase());
-        DriverContext.WaitForAnimation(By.xpath("//div[@class='pokemon-info']//h5"));
+        DriverContext.WaitForAnimation(animation);
 
         List<WebElement> pokemons = DriverContext.Driver.findElements(By.xpath(locatePokemon));
         return DriverContext.GetAllElementsVisibleInArray(pokemons);
@@ -52,6 +56,8 @@ public class PokedexPage extends BasePage {
     }
 
     public void ClickBtnSearch() {
+        DriverContext.ScrollDownToElementVisibled(btnSearch);
+        DriverContext.WaitForElementVisible(btnSearch);
         btnSearch.click();
     }
 
@@ -60,6 +66,18 @@ public class PokedexPage extends BasePage {
     }
 
     public int GetNumberOfPokemons() {
+        DriverContext.WaitForAnimation(animation);
         return resultOfPokemons.size();
+    }
+
+    public void ClickBtnSurpriseMe() {
+        DriverContext.WaitForElementVisible(btnSurpriseMe);
+        btnSurpriseMe.click();
+    }
+
+    public void SetResultFilter(String resultFilter) {
+        if (resultFilter.contains("Z-A")) {
+            DriverContext.GetElementWithinOptions(filterOptions, By.tagName("li"), "Z-A");
+        }
     }
 }

@@ -21,16 +21,17 @@ Feature: Pokédex
       | 987897898978979489 | No pokemon matched |
       | zzxcxzjkhasjk      | No pokemon matched |
 
-  @wip
-  Scenario: Open advanced search
-    Given user opens the advanced search
-    When enter the following details
-      | Type | Weakness | Ability | Height          |
-      | Fire | Water    | Blaze   | Medium and tall |
-    And click on search button in advanced search
-    Then a list with 6 pokemons are shown
-
-  Scenario: Reset the filter
-
   Scenario: Change number range
+    Given user opens the advanced search
+    When set number range to "-1" and "0"
+    And click on search button in advanced search
+    Then the result "No pokemon matched" is displayed
 
+  Scenario: Click on surprise me button
+    When user clicks on surprise me button
+    Then a list with 12 pokemons is shown
+
+  @wip
+  Scenario: Change the sort filter
+    When change the sort filter to "Z-A"
+    Then a list of pokemons starting with word "Z" is shown
