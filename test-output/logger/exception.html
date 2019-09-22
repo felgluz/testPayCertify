@@ -107,12 +107,12 @@
 				<div class="p-2 px-3 text-muted text-sm">Tags</div>
 					<div class="list-item attr">
 						<div class="list-body">
-							<a href="#" class="item-title _500">java.lang.NullPointerException</a>
+							<a href="#" class="item-title _500">org.openqa.selenium.ElementNotVisibleException</a>
 							<div class="item-except text-sm text-muted h-1x">
 								1 tests
 							</div>
 							<div class="tc d-none">
-								<h5 class="mb-4">java.lang.NullPointerException</h5>
+								<h5 class="mb-4">org.openqa.selenium.ElementNotVisibleException</h5>
 								<table class="table">
 									<thead><tr>
 										<th id="status-col"></th>
@@ -126,8 +126,8 @@
 	
 <tr class="s-fail" test-id="7" parent-id="1">
 	<td><span class="w-32 avatar circle fail"><span class="badge">fail</span></span></td>
-	<td class="_600">When user searches a pokemon by "p" <br/><span class="text-muted text-sm">Search pokemon by given values</span></td>
-	<td>0h 0m 0s+1msc</td>
+	<td class="_600">When enter the following details <br/><span class="text-muted text-sm">Open advanced search</span></td>
+	<td>0h 0m 0s+92msc</td>
 	<td></td>
 	<td>
 	</td>
@@ -135,10 +135,35 @@
 </tr>
 <tr class="details">
 	<td colspan="5">
+		<textarea disabled class="code-block"><table class='runtime-table table-striped table'><tr><td>Type</td><td>Weakness</td><td>Ability</td><td>Height</td></tr><tr><td>Fire</td><td>Water</td><td>Blaze</td><td>Medium and tall</td></tr></table></textarea>
 		
-		<textarea disabled class="code-block">java.lang.NullPointerException
-	at test.steps.PokedexSteps.userSearchesAPokemonBy(PokedexSteps.java:33)
-	at ✽.user searches a pokemon by "p"(src/test/test/features/Pokedex.feature:16)
+		
+		<textarea disabled class="code-block">org.openqa.selenium.ElementNotVisibleException: element not interactable
+  (Session info: chrome=76.0.3809.132)
+  (Driver info: chromedriver=2.44.609538 (b655c5a60b0b544917107a59d4153d4bf78e1b90),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-CTU8O61', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.44.609538 (b655c5a60b0b54..., userDataDir: C:\Users\STEFAN~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:59129}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 76.0.3809.132, webStorageEnabled: true}
+Session ID: 847acb1e191a9a46753522cbce672c80
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at test.pages.AdvancedSearchPage.SelectDetails(AdvancedSearchPage.java:30)
+	at test.steps.PokedexSteps.enterTheFollowingDetails(PokedexSteps.java:78)
+	at ✽.enter the following details(src/test/test/features/Pokedex.feature:27)
 </textarea>
 	</td>
 </tr>
@@ -166,7 +191,7 @@
 						            </div>
 									<ul class="nav nav-xs flex-row no-border pull-right">
 <li><a href="#" class="b-l"><span class="badge badge-pull">ExtentReports</span></a></li>
-<li><a href="#" class="b-l"><span class="badge badge-pull">Sep 22, 2019 01:18:17 AM</span></a></li>
+<li><a href="#" class="b-l"><span class="badge badge-pull">Sep 22, 2019 04:46:38 AM</span></a></li>
 <li><a href="#" class="b-l"><span class="badge badge-pull">4.0</span></a></li>
 								    </ul>
 								</div>

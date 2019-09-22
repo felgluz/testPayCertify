@@ -134,7 +134,7 @@ public class DriverContext {
         js.executeScript("arguments[0].scrollIntoView();", element);
     }
 
-    public static boolean GetStatusOfEachElementVisibleInArray(List<WebElement> elements) {
+    public static boolean GetAllElementsVisibleInArray(List<WebElement> elements) {
         for(WebElement element : elements){
             if(!element.isDisplayed()){
                 return false;
@@ -142,6 +142,12 @@ public class DriverContext {
             DriverContext.ScrollDownToElementVisibled(element);
         }
         return true;
+    }
+
+    public static void ScrollDownUntilTextVisibled(String text) {
+        JavascriptExecutor js = (JavascriptExecutor) Driver;
+        WebElement element = Driver.findElement(By.xpath(String.format("//*[contains(text(),'%s')]", text)));
+        js.executeScript("arguments[0].scrollIntoView();", element);
     }
 }
 

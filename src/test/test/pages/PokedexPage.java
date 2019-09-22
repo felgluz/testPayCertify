@@ -20,6 +20,12 @@ public class PokedexPage extends BasePage {
     WebElement btnSearch;
     @FindBy(css = ".filter-toggle-span .text")
     WebElement btnShowAdvancedSearch;
+    @FindBy(css = "[class='alert alert-error']")
+    WebElement alertNoPokemonMatched;
+
+    @FindBy(css = "[class='results'] [class='animating']")
+    List<WebElement> resultOfPokemons;
+
 
     public boolean IsOpen() {
         return txtSearchInput.isDisplayed();
@@ -31,20 +37,12 @@ public class PokedexPage extends BasePage {
     }
 
     public boolean GetPokemon(String pokemonName) {
-        String locatePokemon = String.format("//div[@class='pokemon-info']//h5[contains(text(),'%s')]", pokemonName);
-        DriverContext.WaitForAnimation(By.xpath("//div[@class='pokemon-info']//h5"));
-        WebElement pokemon = DriverContext.Driver.findElement(By.xpath(locatePokemon));
-        //todo make scroll down to pokemon located
-        return pokemon.isDisplayed();
-    }
-
-    public boolean GetPokemonList(String pokemonName) {
         String locatePokemon = String.format("//div[@class='pokemon-info']//h5[contains(text(),'%s') or contains(text(),'%s')]",
                 pokemonName.toUpperCase(), pokemonName.toLowerCase());
         DriverContext.WaitForAnimation(By.xpath("//div[@class='pokemon-info']//h5"));
 
         List<WebElement> pokemons = DriverContext.Driver.findElements(By.xpath(locatePokemon));
-        return DriverContext.GetStatusOfEachElementVisibleInArray(pokemons);
+        return DriverContext.GetAllElementsVisibleInArray(pokemons);
     }
 
     public AdvancedSearchPage OpenAdvancedSearch() {
@@ -57,5 +55,11 @@ public class PokedexPage extends BasePage {
         btnSearch.click();
     }
 
+    public boolean AlertNoPokemonMatchedYourSearch() {
+        return alertNoPokemonMatched.isDisplayed();
+    }
 
+    public int GetNumberOfPokemons() {
+        return resultOfPokemons.size();
+    }
 }

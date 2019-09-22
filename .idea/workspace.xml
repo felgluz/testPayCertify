@@ -2,20 +2,53 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="da2293c7-eced-44ac-9718-78aeb317e332" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/framework/base/SharedDataBetweenPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/test/seleniumTest/PokedexTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/framework/base/DriverContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/framework/base/DriverContext.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/test/data/report/Extent-Report.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/test/data/report/Extent-Report.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/test/features/Pokedex.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/test/features/Pokedex.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/test/pages/AdvancedSearchPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/test/pages/AdvancedSearchPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/test/pages/PokedexPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/test/pages/PokedexPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/test/steps/PokedexSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/test/steps/PokedexSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/framework/base/DriverContext$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/framework/base/DriverContext$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/framework/base/DriverContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/framework/base/DriverContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test/pages/AdvancedSearchPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test/pages/PokedexPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/test/pages/PokedexPage.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/test/test/data/report/Extent-Report.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/test/test/data/report/Extent-Report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test/test/data/screenshots/Search pokemon by given values - 01-14-48___22_09_2019.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test/test/data/screenshots/Search pokemon by given values - 01-18-29___22_09_2019.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test/test/data/screenshots/Search pokemon by given values - 08-47-58___21_09_2019.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test/test/data/screenshots/Search pokemon by given values - 09-37-49___21_09_2019.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test/test/data/screenshots/Search pokemon by given values - 09-38-00___21_09_2019.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test/test/data/screenshots/Search pokemon by given values - 09-40-06___21_09_2019.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test/test/data/screenshots/Search pokemon by given values - 09-40-17___21_09_2019.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test/test/data/screenshots/Search pokemon by given values - 10-43-07___21_09_2019.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test/test/data/screenshots/Search pokemon by given values - 10-46-35___21_09_2019.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test/test/data/screenshots/Search pokemon by given values - 10-48-16___21_09_2019.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/test/test/features/Pokedex.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/test/test/features/Pokedex.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/report/Extent-Report.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/report/Extent-Report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/screenshots/Search pokemon by given values - 01-14-48___22_09_2019.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/screenshots/Search pokemon by given values - 01-18-29___22_09_2019.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/screenshots/Search pokemon by given values - 08-47-58___21_09_2019.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/screenshots/Search pokemon by given values - 09-37-49___21_09_2019.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/screenshots/Search pokemon by given values - 09-38-00___21_09_2019.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/screenshots/Search pokemon by given values - 09-40-06___21_09_2019.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/screenshots/Search pokemon by given values - 09-40-17___21_09_2019.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/screenshots/Search pokemon by given values - 10-43-07___21_09_2019.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/screenshots/Search pokemon by given values - 10-46-35___21_09_2019.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/screenshots/Search pokemon by given values - 10-48-16___21_09_2019.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/test/data/report/Extent-Report.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/test/data/report/Extent-Report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/test/data/screenshots/Search pokemon by given values - 01-14-48___22_09_2019.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/test/data/screenshots/Search pokemon by given values - 01-18-29___22_09_2019.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/test/data/screenshots/Search pokemon by given values - 08-47-58___21_09_2019.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/test/data/screenshots/Search pokemon by given values - 09-37-49___21_09_2019.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/test/data/screenshots/Search pokemon by given values - 09-38-00___21_09_2019.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/test/data/screenshots/Search pokemon by given values - 09-40-06___21_09_2019.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/test/data/screenshots/Search pokemon by given values - 09-40-17___21_09_2019.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/test/data/screenshots/Search pokemon by given values - 10-43-07___21_09_2019.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/test/data/screenshots/Search pokemon by given values - 10-46-35___21_09_2019.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/test/data/screenshots/Search pokemon by given values - 10-48-16___21_09_2019.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/test/features/Pokedex.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/test/features/Pokedex.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/test/pages/AdvancedSearchPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/test/pages/AdvancedSearchPage.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/test/pages/PokedexPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/test/pages/PokedexPage.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/test/steps/PokedexSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/test/steps/PokedexSteps.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/logger/dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/logger/dashboard.html" afterDir="false" />
@@ -39,55 +72,51 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/test/features/Pokedex.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
+            <state relative-caret-position="346">
+              <caret line="26" column="29" selection-start-line="26" selection-start-column="29" selection-end-line="26" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/test/steps/PokedexSteps.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="600">
+              <caret line="77" column="54" lean-forward="true" selection-start-line="77" selection-start-column="54" selection-end-line="77" selection-end-column="54" />
+              <folding>
+                <element signature="method#userAccessThePokedexPage#0;class#PokedexSteps#0" />
+                <element signature="method#pokedexPageIsOpen#0;class#PokedexSteps#0" />
+                <element signature="method#userSearchesAPokemonBy#0;class#PokedexSteps#0" />
+                <element signature="method#theResultIsDisplayed#0;class#PokedexSteps#0" />
+                <element signature="e#1380#1892#0" />
+                <element signature="method#clickOnSearchButtonInAdvancedSearch#0;class#PokedexSteps#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/test/pages/PokedexPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="715">
+              <caret line="62" column="39" selection-start-line="62" selection-start-column="39" selection-end-line="62" selection-end-column="39" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#PokedexPage#0;class#PokedexPage#0" />
+                <element signature="e#1858#1859#0" expanded="true" />
+                <element signature="e#1904#1905#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/test/steps/PokedexSteps.java">
+        <entry file="file://$PROJECT_DIR$/src/test/test/pages/AdvancedSearchPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="371">
-              <caret line="32" column="51" lean-forward="true" selection-start-line="32" selection-start-column="51" selection-end-line="32" selection-end-column="51" />
+            <state relative-caret-position="195">
+              <caret line="26" column="16" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="16" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/framework/base/SharedDataBetweenPage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="14" column="23" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="23" />
-              <folding>
-                <element signature="e#163#164#0" expanded="true" />
-                <element signature="e#207#208#0" expanded="true" />
-                <element signature="e#244#245#0" expanded="true" />
-                <element signature="e#277#278#0" expanded="true" />
-                <element signature="e#329#330#0" expanded="true" />
-                <element signature="e#373#374#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/framework/base/DriverContext.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="675">
-              <caret line="147" selection-start-line="147" selection-end-line="147" />
-              <folding>
-                <element signature="method#WaitForPageToLoad#0;class#DriverContext#0" />
-                <element signature="method#WaitForElementVisible#0;class#DriverContext#0" />
-                <element signature="method#WaitForElementClickable#0;class#DriverContext#0" />
-                <element signature="method#WaitForAnimation#0;class#DriverContext#0" />
-                <element signature="method#AcceptCookies#0;class#DriverContext#0" />
-                <element signature="method#SteadinessOfElementLocated#0;class#DriverContext#0" />
-                <element signature="method#isOnTop#0;class#DriverContext#0" />
-                <element signature="method#GetElementDisplayedInArray#0;class#DriverContext#0" />
               </folding>
             </state>
           </provider>
@@ -129,7 +158,6 @@
         <option value="$PROJECT_DIR$/src/test/test/steps/GuiaMedicoSteps.java" />
         <option value="$PROJECT_DIR$/src/framework/base/Base.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/framework/base/BasePage.java" />
         <option value="$PROJECT_DIR$/src/framework/utilities/LogUtil.java" />
         <option value="$PROJECT_DIR$/src/framework/utilities/ExcelUtil.java" />
         <option value="$PROJECT_DIR$/src/test/test/features/Login.feature" />
@@ -141,19 +169,21 @@
         <option value="$PROJECT_DIR$/src/framework/config/Settings.java" />
         <option value="$PROJECT_DIR$/src/framework/config/GlobalConfig.properties" />
         <option value="$PROJECT_DIR$/src/test/test/data/extent.properties" />
-        <option value="$PROJECT_DIR$/src/test/test/pages/AdvancedSearchPage.java" />
         <option value="$PROJECT_DIR$/src/framework/base/FrameworkInitialize.java" />
         <option value="$PROJECT_DIR$/src/test/test/steps/TestInitialize.java" />
         <option value="$PROJECT_DIR$/src/test/test/runner/TestRunner.java" />
-        <option value="$PROJECT_DIR$/src/framework/base/DriverContext.java" />
         <option value="$PROJECT_DIR$/src/framework/utilities/CucumberUtil.java" />
         <option value="$PROJECT_DIR$/src/framework/utilities/TestContext.java" />
         <option value="$PROJECT_DIR$/src/framework/utilities/TestData.java" />
         <option value="$PROJECT_DIR$/src/framework/utilities/TestData_Singleton.java" />
         <option value="$PROJECT_DIR$/src/test/test/pages/SharedDataBetweenPage.java" />
+        <option value="$PROJECT_DIR$/src/framework/base/SharedDataBetweenPage.java" />
+        <option value="$PROJECT_DIR$/src/framework/base/BasePage.java" />
+        <option value="$PROJECT_DIR$/src/test/test/seleniumTest/PokedexTest.java" />
         <option value="$PROJECT_DIR$/src/test/test/pages/PokedexPage.java" />
         <option value="$PROJECT_DIR$/src/test/test/features/Pokedex.feature" />
-        <option value="$PROJECT_DIR$/src/framework/base/SharedDataBetweenPage.java" />
+        <option value="$PROJECT_DIR$/src/test/test/pages/AdvancedSearchPage.java" />
+        <option value="$PROJECT_DIR$/src/framework/base/DriverContext.java" />
         <option value="$PROJECT_DIR$/src/test/test/steps/PokedexSteps.java" />
       </list>
     </option>
@@ -196,27 +226,6 @@
               <item name="test-Paycertify" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="framework" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="testPayCertify" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test-Paycertify" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="framework" type="462c0819:PsiDirectoryNode" />
-              <item name="base" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="testPayCertify" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test-Paycertify" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="framework" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="testPayCertify" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test-Paycertify" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="framework" type="462c0819:PsiDirectoryNode" />
-              <item name="utilities" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="testPayCertify" type="b2602c69:ProjectViewProjectNode" />
@@ -278,7 +287,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1569126302285" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1569138571196" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
@@ -370,34 +379,34 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestRunner - 2019.09.21 at 23h 46m 54s.xml">
+    <history-entry file="TestRunner - 2019.09.22 at 01h 42m 19s.xml">
       <configuration name="TestRunner" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestRunner - 2019.09.21 at 23h 51m 43s.xml">
+    <history-entry file="TestRunner - 2019.09.22 at 03h 35m 39s.xml">
       <configuration name="TestRunner" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestRunner - 2019.09.21 at 23h 54m 15s.xml">
+    <history-entry file="TestRunner - 2019.09.22 at 03h 42m 02s.xml">
       <configuration name="TestRunner" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestRunner - 2019.09.21 at 23h 54m 39s.xml">
+    <history-entry file="TestRunner - 2019.09.22 at 03h 46m 17s.xml">
       <configuration name="TestRunner" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestRunner - 2019.09.22 at 00h 48m 25s.xml">
+    <history-entry file="TestRunner - 2019.09.22 at 04h 31m 37s.xml">
       <configuration name="TestRunner" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestRunner - 2019.09.22 at 01h 14m 49s.xml">
+    <history-entry file="TestRunner - 2019.09.22 at 04h 32m 45s.xml">
       <configuration name="TestRunner" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestRunner - 2019.09.22 at 01h 15m 44s.xml">
+    <history-entry file="TestRunner - 2019.09.22 at 04h 33m 47s.xml">
       <configuration name="TestRunner" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestRunner - 2019.09.22 at 01h 17m 52s.xml">
+    <history-entry file="TestRunner - 2019.09.22 at 04h 42m 46s.xml">
       <configuration name="TestRunner" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestRunner - 2019.09.22 at 01h 18m 15s.xml">
+    <history-entry file="TestRunner - 2019.09.22 at 04h 44m 15s.xml">
       <configuration name="TestRunner" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestRunner - 2019.09.22 at 01h 18m 30s.xml">
+    <history-entry file="TestRunner - 2019.09.22 at 04h 46m 51s.xml">
       <configuration name="TestRunner" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -471,22 +480,46 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/test/steps/PokedexSteps.java</url>
-          <line>41</line>
+          <url>file://$PROJECT_DIR$/src/test/test/pages/AdvancedSearchPage.java</url>
+          <line>28</line>
           <properties />
-          <option name="timeStamp" value="57" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/test/steps/PokedexSteps.java</url>
-          <line>33</line>
-          <properties />
-          <option name="timeStamp" value="58" />
+          <option name="timeStamp" value="69" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>btnFire.get(0).click()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>btnFire.get(0).click();</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>btnFire.get(0).getText()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>li.getText()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>li.getText(</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>li.getText().startsWith(&quot;Bug&quot;)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>pokemonList.toString()</expression-string>
         <language-id>JAVA</language-id>
@@ -502,46 +535,9 @@
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
-      <expression>
-        <expression-string>DriverContext.WaitForAnimation(By.xpath(pokemonList.toString()))</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>CurrentPage.As(PokedexPage.class).GetPokemon(result)</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>//h5[contains(text(),'Electrode')]</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>CurrentPage.As(PokedexPage.class).GetPokemon(&quot;Electrode&quot;)</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>CurrentPage.As(PokedexPage.class).GetPokemon()</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>GetPokemon()</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/framework/config/Settings.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="16" column="40" lean-forward="true" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/test/data/screenshotsSearch pokemon by given values - 18092019160927.png" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar!/org/openqa/selenium/WebDriver.class">
       <provider selected="true" editor-type-id="text-editor">
@@ -609,16 +605,6 @@
     <entry file="file://$PROJECT_DIR$/src/test/test/data/screenshots/Open advanced search - 10-10-08___18_09_2019.png" />
     <entry file="file://$PROJECT_DIR$/src/test/test/data/screenshots/Open advanced search - 10-11-21___18_09_2019.png" />
     <entry file="file://$PROJECT_DIR$/src/test/test/data/screenshots/Open advanced search - 10-17-07___18_09_2019.png" />
-    <entry file="file://$PROJECT_DIR$/src/test/test/pages/AdvancedSearchPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/test/data/report/Extent-Report.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -747,17 +733,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/framework/base/FrameworkInitialize.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="34" column="26" selection-start-line="34" selection-start-column="26" selection-end-line="34" selection-end-column="26" />
-          <folding>
-            <element signature="method#ConfigureAuth#0;class#FrameworkInitialize#0" />
-            <element signature="method#TakeScreenshot#0;class#FrameworkInitialize#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/test/runner/TestRunner.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -772,13 +747,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/test/steps/TestInitialize.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="36" column="8" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar!/org/openqa/selenium/support/FindBy.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -790,20 +758,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
           <caret line="31" column="17" lean-forward="true" selection-start-line="31" selection-start-column="17" selection-end-line="31" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/framework/utilities/CucumberUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="53" column="5" selection-start-line="53" selection-start-column="5" selection-end-line="53" selection-end-column="5" />
-          <folding>
-            <element signature="method#ConvertDataTableToDict#0;class#CucumberUtil#0" />
-            <element signature="e#641#912#1" />
-            <element signature="e#713#877#1" />
-            <element signature="class#DataCollection#0;class#CucumberUtil#0" />
-            <element signature="method#DataCollection#0;class#DataCollection#0;class#CucumberUtil#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -839,19 +793,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/framework/base/DriverContext.java">
+    <entry file="file://$PROJECT_DIR$/src/framework/base/SharedDataBetweenPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="147" selection-start-line="147" selection-end-line="147" />
+        <state relative-caret-position="180">
+          <caret line="9" column="35" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
           <folding>
-            <element signature="method#WaitForPageToLoad#0;class#DriverContext#0" />
-            <element signature="method#WaitForElementVisible#0;class#DriverContext#0" />
-            <element signature="method#WaitForElementClickable#0;class#DriverContext#0" />
-            <element signature="method#WaitForAnimation#0;class#DriverContext#0" />
-            <element signature="method#AcceptCookies#0;class#DriverContext#0" />
-            <element signature="method#SteadinessOfElementLocated#0;class#DriverContext#0" />
-            <element signature="method#isOnTop#0;class#DriverContext#0" />
-            <element signature="method#GetElementDisplayedInArray#0;class#DriverContext#0" />
+            <element signature="e#163#164#0" expanded="true" />
+            <element signature="e#207#208#0" expanded="true" />
+            <element signature="e#277#278#0" expanded="true" />
+            <element signature="e#329#330#0" expanded="true" />
+            <element signature="e#373#374#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/test/steps/TestInitialize.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="15" column="45" lean-forward="true" selection-start-line="15" selection-start-column="45" selection-end-line="15" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/framework/base/FrameworkInitialize.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-45">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+          <folding>
+            <element signature="method#ConfigureAuth#0;class#FrameworkInitialize#0" />
+            <element signature="method#TakeScreenshot#0;class#FrameworkInitialize#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/test/seleniumTest/PokedexTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="4" column="30" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
+          <folding>
+            <element signature="e#252#253#0" expanded="true" />
+            <element signature="e#301#302#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -863,55 +843,104 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/test/pages/PokedexPage.java">
+    <entry file="file://$PROJECT_DIR$/src/test/test/features/Pokedex.feature">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#639#640#0" expanded="true" />
-            <element signature="e#690#691#0" expanded="true" />
-            <element signature="method#EnterText#0;class#PokedexPage#0" />
-            <element signature="method#OpenAdvancedSearch#0;class#PokedexPage#0" />
-            <element signature="e#1968#1969#0" expanded="true" />
-            <element signature="e#2001#2002#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="346">
+          <caret line="26" column="29" selection-start-line="26" selection-start-column="29" selection-end-line="26" selection-end-column="29" />
         </state>
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/io/cucumber/cucumber-core/4.2.0/cucumber-core-4.2.0.jar!/cucumber/runtime/Utils.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="35" selection-start-line="35" selection-end-line="35" />
+        <state relative-caret-position="245">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/framework/base/SharedDataBetweenPage.java">
+    <entry file="file://$PROJECT_DIR$/src/framework/base/DriverContext.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="14" column="23" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="23" />
+        <state relative-caret-position="340">
+          <caret line="146" column="64" lean-forward="true" selection-start-line="146" selection-start-column="64" selection-end-line="146" selection-end-column="64" />
           <folding>
-            <element signature="e#163#164#0" expanded="true" />
-            <element signature="e#207#208#0" expanded="true" />
-            <element signature="e#244#245#0" expanded="true" />
-            <element signature="e#277#278#0" expanded="true" />
-            <element signature="e#329#330#0" expanded="true" />
-            <element signature="e#373#374#0" expanded="true" />
+            <element signature="method#WaitForPageToLoad#0;class#DriverContext#0" />
+            <element signature="e#578#747#0" />
+            <element signature="method#WaitForElementVisible#0;class#DriverContext#0" />
+            <element signature="e#968#1123#0" />
+            <element signature="e#1144#1214#0" />
+            <element signature="method#WaitForElementClickable#0;class#DriverContext#0" />
+            <element signature="e#1309#1472#0" />
+            <element signature="e#1506#1576#0" />
+            <element signature="method#WaitForAnimation#0;class#DriverContext#0" />
+            <element signature="e#1656#1806#0" />
+            <element signature="e#1827#1897#0" />
+            <element signature="method#AcceptCookies#0;class#DriverContext#0" />
+            <element signature="method#SteadinessOfElementLocated#0;class#DriverContext#0" />
+            <element signature="class#2300:3455" />
+            <element signature="method#apply#0;class#2300:3455" />
+            <element signature="e#2544#2783#1" />
+            <element signature="e#2570#2671#0" />
+            <element signature="e#2705#2765#0" />
+            <element signature="e#2805#3157#0" />
+            <element signature="e#2855#3139#1" />
+            <element signature="e#2999#3071#1" />
+            <element signature="e#3199#3255#0" />
+            <element signature="method#isOnTop#0;class#DriverContext#0" />
+            <element signature="method#GetElementDisplayedInArray#0;class#DriverContext#0" />
+            <element signature="e#4449#4541#1" />
+            <element signature="method#ScrollDownToElementVisibled#0;class#DriverContext#0" />
+            <element signature="method#GetAllElementsVisibleInArray#0;class#DriverContext#0" />
+            <element signature="e#4927#5086#1" />
+            <element signature="e#4967#5012#1" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/test/features/Pokedex.feature">
+    <entry file="file://$PROJECT_DIR$/src/framework/utilities/CucumberUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
+        <state relative-caret-position="440">
+          <caret line="40" selection-start-line="40" selection-end-line="40" />
+          <folding>
+            <element signature="method#ConvertDataTableToDict#0;class#CucumberUtil#0" />
+            <element signature="e#641#912#1" />
+            <element signature="e#713#877#1" />
+            <element signature="class#DataCollection#0;class#CucumberUtil#0" />
+            <element signature="method#DataCollection#0;class#DataCollection#0;class#CucumberUtil#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/test/pages/PokedexPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="715">
+          <caret line="62" column="39" selection-start-line="62" selection-start-column="39" selection-end-line="62" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#PokedexPage#0;class#PokedexPage#0" />
+            <element signature="e#1858#1859#0" expanded="true" />
+            <element signature="e#1904#1905#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/test/steps/PokedexSteps.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="371">
-          <caret line="32" column="51" lean-forward="true" selection-start-line="32" selection-start-column="51" selection-end-line="32" selection-end-column="51" />
+        <state relative-caret-position="600">
+          <caret line="77" column="54" lean-forward="true" selection-start-line="77" selection-start-column="54" selection-end-line="77" selection-end-column="54" />
+          <folding>
+            <element signature="method#userAccessThePokedexPage#0;class#PokedexSteps#0" />
+            <element signature="method#pokedexPageIsOpen#0;class#PokedexSteps#0" />
+            <element signature="method#userSearchesAPokemonBy#0;class#PokedexSteps#0" />
+            <element signature="method#theResultIsDisplayed#0;class#PokedexSteps#0" />
+            <element signature="e#1380#1892#0" />
+            <element signature="method#clickOnSearchButtonInAdvancedSearch#0;class#PokedexSteps#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/test/pages/AdvancedSearchPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="26" column="16" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
