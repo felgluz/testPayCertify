@@ -7,14 +7,16 @@ import framework.base.Base;
 import framework.base.DriverContext;
 import framework.config.Settings;
 import org.junit.Assert;
+import test.pages.AdvancedSearchPage;
 import test.pages.PokedexPage;
 
 public class PokedexSteps extends Base {
 
     @Given("user access the pokedex page")
-    public void userAccessThePokedexPage() {
+    public void userAccessThePokedexPage()   {
         DriverContext.Browser.GoToUrl(Settings.AUT + "/pokedex");
         DriverContext.WaitForPageToLoad();
+        DriverContext.AcceptCookies();
     }
 
     @Then("pokedex page is open")
@@ -26,23 +28,36 @@ public class PokedexSteps extends Base {
     @When("user searches a pokemon by {string}")
     public void userSearchesAPokemonBy(String search) {
         CurrentPage.As(PokedexPage.class).EnterText(search);
+        CurrentPage.As(PokedexPage.class).ClickBtnSearch();
     }
 
     @Then("the result {string} is displayed")
     public void theResultIsDisplayed(String result) {
 
         switch (result) {
-            case "0101":
+            case "Electrode":
                 Assert.assertTrue("Pokemon not displayed",
-                        CurrentPage.As(PokedexPage.class).GetPokemonDisplayedInList("Electrode"));
+                        CurrentPage.As(PokedexPage.class).GetPokemon(result));
                 break;
             case "Pikachu":
                 Assert.assertTrue("Pokemon not displayed",
-                        CurrentPage.As(PokedexPage.class).GetPokemonDisplayedInList("Pikachu"));
+                        CurrentPage.As(PokedexPage.class).GetPokemon("Pikachu"));
                 break;
             case "p":
-                CurrentPage.As(PokedexPage.class).GetPokemonDisplayedInList("Pikachu");
+                CurrentPage.As(PokedexPage.class).GetPokemonList("p");
+                break;
         }
 
+    }
+
+    @Given("user opens the advanced search")
+    public void userOpensTheAdvancedSearch() {
+        CurrentPage.As(PokedexPage.class).OpenAdvancedSearch();
+    }
+
+    @When("user clicks on height")
+    public void userClicksOnHeight() {
+        CurrentPage = GetInstance(AdvancedSearchPage.class);
+        CurrentPage.As(AdvancedSearchPage.class).ClickOnHeight();
     }
 }

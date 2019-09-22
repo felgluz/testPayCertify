@@ -2,37 +2,41 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="da2293c7-eced-44ac-9718-78aeb317e332" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/test/data/MyStepdefs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/test/features/Pokedex.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/test/pages/AdvancedSearchPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/test/pages/PokedexPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/test/steps/PokedexSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/framework/base/Browser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/framework/base/Browser.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/framework/base/DriverContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/framework/base/DriverContext.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/framework/base/FrameworkInitialize.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/framework/base/FrameworkInitialize.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/framework/config/ConfigReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/framework/config/ConfigReader.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/framework/config/GlobalConfig.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/framework/config/GlobalConfig.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/framework/config/Settings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/framework/config/Settings.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/framework/utilities/CucumberUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/framework/utilities/CucumberUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/framework/utilities/ExcelUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/framework/utilities/ExcelUtil.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/test/data/data-driven/data.xls" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/test/data/data-driven/data.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/test/data/extent.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/test/data/extent.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/test/features/Pokedex.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/test/features/Pokedex.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/test/pages/AdvancedSearchPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/test/pages/AdvancedSearchPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/test/pages/PokedexPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/test/pages/PokedexPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/test/runner/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/test/runner/TestRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/test/steps/PokedexSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/test/steps/PokedexSteps.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/test/steps/TestInitialize.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/test/steps/TestInitialize.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/MyStepdefs.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/framework/base/DriverContext$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/framework/base/DriverContext$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/framework/base/DriverContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/framework/base/DriverContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/framework/base/FrameworkInitialize$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/framework/base/FrameworkInitialize$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/framework/base/FrameworkInitialize.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/framework/base/FrameworkInitialize.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/framework/config/ConfigReader.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/framework/config/ConfigReader.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/framework/config/GlobalConfig.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/framework/config/GlobalConfig.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/framework/config/Settings.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/framework/config/Settings.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/framework/utilities/ExcelUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/framework/utilities/ExcelUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/test/runner/TestRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/test/runner/TestRunner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/test/steps/TestInitialize.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/test/steps/TestInitialize.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/test/test/data/data/data.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/data/data.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/test/data/data/data.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/framework/utilities/CucumberUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/framework/utilities/CucumberUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test/pages/AdvancedSearchPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test/pages/PokedexPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test/runner/TestRunner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test/steps/PokedexSteps.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test/steps/TestInitialize.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test/test/data/data-driven/data.xls" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/test/test/data/data-driven/data.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test/test/features/Pokedex.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/test/test/features/Pokedex.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/MyStepdefs.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/data-driven/data.xls" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/data-driven/data.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/test/data/data-driven/data.xls" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/test/data/data-driven/data.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/test/features/Pokedex.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/test/features/Pokedex.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/test/pages/AdvancedSearchPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/test/pages/AdvancedSearchPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/test/pages/PokedexPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/test/pages/PokedexPage.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/test/runner/TestRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/test/runner/TestRunner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/test/steps/PokedexSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/test/steps/PokedexSteps.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/test/steps/TestInitialize.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/test/steps/TestInitialize.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -43,62 +47,46 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/testPayCertify$TestRunner.ic" NAME="TestRunner Coverage Results" MODIFIED="1569079819872" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/test/runner/TestRunner.java">
+        <entry file="file://$PROJECT_DIR$/src/test/test/features/Pokedex.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="23" column="10" selection-start-line="23" selection-start-column="10" selection-end-line="23" selection-end-column="10" />
+            <state relative-caret-position="320">
+              <caret line="16" column="24" lean-forward="true" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/test/steps/TestInitialize.java">
+        <entry file="file://$PROJECT_DIR$/src/test/test/steps/PokedexSteps.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="301">
-              <caret line="25" column="8" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="50" />
+            <state relative-caret-position="591">
+              <caret line="46" column="57" selection-start-line="46" selection-start-column="57" selection-end-line="46" selection-end-column="57" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/test/features/Pokedex.feature">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/test/steps/PokedexSteps.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="478">
-              <caret line="43" column="56" lean-forward="true" selection-start-line="43" selection-start-column="56" selection-end-line="43" selection-end-column="56" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#899#900#0" expanded="true" />
-                <element signature="e#930#931#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/test/pages/PokedexPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="458">
-              <caret line="32" column="19" selection-start-line="32" selection-start-column="19" selection-end-line="32" selection-end-column="19" />
+            <state relative-caret-position="615">
+              <caret line="49" column="22" selection-start-line="49" selection-start-column="22" selection-end-line="49" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#273#274#0" expanded="true" />
-                <element signature="e#311#312#0" expanded="true" />
+                <element signature="method#PokedexPage#0;class#PokedexPage#0" />
+                <element signature="e#639#640#0" expanded="true" />
+                <element signature="e#690#691#0" expanded="true" />
                 <element signature="method#EnterText#0;class#PokedexPage#0" />
+                <element signature="method#OpenAdvancedSearch#0;class#PokedexPage#0" />
+                <element signature="e#1968#1969#0" expanded="true" />
+                <element signature="e#2001#2002#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -107,41 +95,37 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/framework/base/DriverContext.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="284">
-              <caret line="212" column="55" selection-start-line="212" selection-start-column="29" selection-end-line="212" selection-end-column="55" />
+            <state relative-caret-position="340">
+              <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
               <folding>
-                <element signature="method#toByValue#0;class#DriverContext#0" />
-                <element signature="e#880#1372#0" />
                 <element signature="method#WaitForPageToLoad#0;class#DriverContext#0" />
-                <element signature="class#1627:1930" />
-                <element signature="method#apply#0;class#1627:1930" />
+                <element signature="e#582#751#0" />
                 <element signature="method#WaitForElementVisible#0;class#DriverContext#0" />
-                <element signature="e#2305#2452#0" />
-                <element signature="e#2473#2543#0" />
-                <element signature="method#WaitForElementTextVisibled#0;class#DriverContext#0" />
-                <element signature="method#WaitForElementTextDisplayed#0;class#DriverContext#0" />
-                <element signature="method#textDisplayed#0;class#DriverContext#0" />
-                <element signature="e#3116#3260#0" />
-                <element signature="method#WaitForElementEnabled#0;class#DriverContext#0" />
-                <element signature="method#ScrollDownUntilTextVisibled#0;class#DriverContext#0" />
+                <element signature="e#848#989#0" />
+                <element signature="e#1010#1080#0" />
+                <element signature="method#WaitForElementClickable#0;class#DriverContext#0" />
+                <element signature="e#1175#1324#0" />
+                <element signature="e#1358#1428#0" />
+                <element signature="method#WaitForAnimation#0;class#DriverContext#0" />
+                <element signature="e#1508#1644#0" />
+                <element signature="e#1665#1735#0" />
+                <element signature="method#AcceptCookies#0;class#DriverContext#0" />
+                <element signature="method#SteadinessOfElementLocated#0;class#DriverContext#0" />
+                <element signature="class#2138:3293" />
+                <element signature="method#apply#0;class#2138:3293" />
+                <element signature="e#2382#2621#1" />
+                <element signature="e#2408#2509#0" />
+                <element signature="e#2543#2603#0" />
+                <element signature="e#2643#2995#0" />
+                <element signature="e#2693#2977#1" />
+                <element signature="e#2837#2909#1" />
+                <element signature="e#3037#3093#0" />
+                <element signature="method#isOnTop#0;class#DriverContext#0" />
+                <element signature="method#GetElementDisplayedInArray#0;class#DriverContext#0" />
+                <element signature="e#4273#4365#1" />
                 <element signature="method#ScrollDownUntilElementVisibled#0;class#DriverContext#0" />
-                <element signature="method#ScrollDownUntilPixel#0;class#DriverContext#0" />
-                <element signature="method#WaitForElementToBeClickable#0;class#DriverContext#0" />
-                <element signature="method#GetFieldAttribute#0;class#DriverContext#0" />
-                <element signature="e#4631#4698#1" />
-                <element signature="method#SwitchWindow#0;class#DriverContext#0" />
-                <element signature="e#5204#5263#1" />
-                <element signature="e#5321#5414#1" />
-                <element signature="e#5420#5523#1" />
-                <element signature="method#SwitchToFrame#0;class#DriverContext#0" />
-                <element signature="method#RobotPressKey#0;class#DriverContext#0" />
-                <element signature="method#RobotMouseMove#0;class#DriverContext#0" />
-                <element signature="method#RobotMouseClick#0;class#DriverContext#0" />
-                <element signature="method#IsFileDownloaded#0;class#DriverContext#0" />
-                <element signature="e#6484#6703#1" />
-                <element signature="e#6545#6693#1" />
-                <element signature="method#MouseHoverAndClick#0;class#DriverContext#0" />
-                <element signature="method#MouseHover#0;class#DriverContext#0" />
+                <element signature="method#CheckEachDisplayedElementInArray#0;class#DriverContext#0" />
+                <element signature="e#5825#5917#1" />
               </folding>
             </state>
           </provider>
@@ -162,6 +146,7 @@
       <find>excel</find>
       <find>proper</find>
       <find>dindeçe</find>
+      <find>cookie-dismisser</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -185,22 +170,23 @@
         <option value="$PROJECT_DIR$/src/framework/utilities/LogUtil.java" />
         <option value="$PROJECT_DIR$/src/framework/utilities/ExcelUtil.java" />
         <option value="$PROJECT_DIR$/src/test/test/features/Login.feature" />
-        <option value="$PROJECT_DIR$/src/test/test/runner/TestRunner.java" />
         <option value="$PROJECT_DIR$/src/framework/base/Browser.java" />
         <option value="$PROJECT_DIR$/src/test/test/data/PokedexSteps.java" />
         <option value="$PROJECT_DIR$/src/test/test/steps/PokeDexSteps.java" />
         <option value="$PROJECT_DIR$/src/test/test/data/MyStepdefs.java" />
-        <option value="$PROJECT_DIR$/src/framework/base/FrameworkInitialize.java" />
-        <option value="$PROJECT_DIR$/src/framework/config/GlobalConfig.properties" />
         <option value="$PROJECT_DIR$/src/framework/config/ConfigReader.java" />
         <option value="$PROJECT_DIR$/src/framework/config/Settings.java" />
+        <option value="$PROJECT_DIR$/src/framework/config/GlobalConfig.properties" />
+        <option value="$PROJECT_DIR$/src/test/test/data/extent.properties" />
         <option value="$PROJECT_DIR$/src/test/test/pages/AdvancedSearchPage.java" />
-        <option value="$PROJECT_DIR$/src/test/test/steps/TestInitialize.java" />
         <option value="$PROJECT_DIR$/src/framework/utilities/CucumberUtil.java" />
+        <option value="$PROJECT_DIR$/src/framework/base/FrameworkInitialize.java" />
+        <option value="$PROJECT_DIR$/src/test/test/steps/TestInitialize.java" />
+        <option value="$PROJECT_DIR$/src/test/test/runner/TestRunner.java" />
         <option value="$PROJECT_DIR$/src/test/test/features/Pokedex.feature" />
-        <option value="$PROJECT_DIR$/src/framework/base/DriverContext.java" />
-        <option value="$PROJECT_DIR$/src/test/test/pages/PokedexPage.java" />
         <option value="$PROJECT_DIR$/src/test/test/steps/PokedexSteps.java" />
+        <option value="$PROJECT_DIR$/src/test/test/pages/PokedexPage.java" />
+        <option value="$PROJECT_DIR$/src/framework/base/DriverContext.java" />
       </list>
     </option>
   </component>
@@ -212,10 +198,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-1929" />
-    <option name="y" value="-9" />
-    <option name="width" value="1938" />
-    <option name="height" value="1048" />
+    <option name="x" value="-1928" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -224,6 +210,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -241,6 +228,20 @@
               <item name="test-Paycertify" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="framework" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="testPayCertify" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test-Paycertify" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="framework" type="462c0819:PsiDirectoryNode" />
+              <item name="base" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="testPayCertify" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test-Paycertify" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="framework" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="testPayCertify" type="b2602c69:ProjectViewProjectNode" />
@@ -276,8 +277,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-              <item name="data-driven" type="462c0819:PsiDirectoryNode" />
+              <item name="features" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="testPayCertify" type="b2602c69:ProjectViewProjectNode" />
@@ -285,7 +285,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="features" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="testPayCertify" type="b2602c69:ProjectViewProjectNode" />
@@ -307,11 +307,10 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1568831646717" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1569118596833" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
@@ -319,21 +318,22 @@
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Stefanini\Documents\Pessoal\desafio\desafioqa\Desafio1\src\test\test\data\massa" />
-      <recent name="C:\Users\Stefanini\Documents\Pessoal\desafio\desafioqa\Desafio1\src\framework\config" />
-    </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="test.pages" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Stefanini\Documents\Pessoal\test-Paycertify\src\test\test\data" />
+      <recent name="C:\Users\Stefanini\Documents\Pessoal\desafio\desafioqa\Desafio1\src\test\test\runner" />
+      <recent name="C:\Users\Stefanini\Documents\Pessoal\desafio\desafioqa\Desafio1\src\framework\utilities" />
+      <recent name="C:\Users\Stefanini\Documents\Pessoal\desafio\desafioqa\Desafio1\src\framework\base" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="framework.utilities" />
       <recent name="test.steps" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Stefanini\Documents\Pessoal\desafio\desafioqa\Desafio1\src\test\test\runner" />
-      <recent name="C:\Users\Stefanini\Documents\Pessoal\desafio\desafioqa\Desafio1\src\framework\utilities" />
-      <recent name="C:\Users\Stefanini\Documents\Pessoal\desafio\desafioqa\Desafio1\src\framework\base" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Stefanini\Documents\Pessoal\desafio\desafioqa\Desafio1\src\test\test\data\massa" />
+      <recent name="C:\Users\Stefanini\Documents\Pessoal\desafio\desafioqa\Desafio1\src\framework\config" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -402,42 +402,42 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestRunner - 2019.09.18 at 09h 33m 49s.xml">
+    <history-entry file="TestRunner - 2019.09.21 at 21h 53m 19s.xml">
       <configuration name="TestRunner" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestRunner - 2019.09.18 at 09h 34m 00s.xml">
+    <history-entry file="TestRunner - 2019.09.21 at 22h 19m 21s.xml">
       <configuration name="TestRunner" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestRunner - 2019.09.18 at 09h 34m 19s.xml">
+    <history-entry file="TestRunner - 2019.09.21 at 22h 24m 23s.xml">
       <configuration name="TestRunner" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestRunner - 2019.09.18 at 09h 34m 42s.xml">
+    <history-entry file="TestRunner - 2019.09.21 at 22h 42m 42s.xml">
       <configuration name="TestRunner" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestRunner - 2019.09.18 at 09h 36m 27s.xml">
+    <history-entry file="TestRunner - 2019.09.21 at 22h 43m 08s.xml">
       <configuration name="TestRunner" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestRunner - 2019.09.18 at 09h 48m 14s.xml">
+    <history-entry file="TestRunner - 2019.09.21 at 22h 46m 10s.xml">
       <configuration name="TestRunner" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestRunner - 2019.09.18 at 09h 50m 34s.xml">
+    <history-entry file="TestRunner - 2019.09.21 at 22h 46m 37s.xml">
       <configuration name="TestRunner" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestRunner - 2019.09.18 at 09h 51m 21s.xml">
+    <history-entry file="TestRunner - 2019.09.21 at 22h 48m 17s.xml">
       <configuration name="TestRunner" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestRunner - 2019.09.18 at 13h 42m 43s.xml">
+    <history-entry file="TestRunner - 2019.09.21 at 22h 53m 54s.xml">
       <configuration name="TestRunner" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestRunner - 2019.09.18 at 13h 43m 38s.xml">
+    <history-entry file="TestRunner - 2019.09.21 at 22h 55m 06s.xml">
       <configuration name="TestRunner" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1927" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="-1928" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1885906" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19829424" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -446,15 +446,15 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.29886687" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3385269" />
+      <window_info anchor="bottom" auto_hide="true" id="Run" order="2" weight="0.43336946" />
+      <window_info anchor="bottom" auto_hide="true" x="-1897" y="256" width="1490" height="312" id="Debug" order="3" weight="0.38136512" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.3286119" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32827735" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -463,7 +463,36 @@
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Coverage" order="8" side_tool="true" />
     </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21588486" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.52974504" />
+      <window_info active="true" anchor="bottom" auto_hide="true" x="-1897" y="256" width="1490" height="312" id="Debug" order="3" visible="true" weight="0.38136512" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32827735" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+    </layout-to-restore>
   </component>
   <component name="VcsManagerConfiguration">
     <ignored-roots>
@@ -473,217 +502,55 @@
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
       <expression>
-        <expression-string>Workbook.getWorkbook(new File(ExcelSheetPath))</expression-string>
+        <expression-string>pokemonList.toString()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>locatePokemon</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>pokemonList</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>DriverContext.WaitForAnimation(By.xpath(pokemonList.toString()))</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>CurrentPage.As(PokedexPage.class).GetPokemon(result)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>//h5[contains(text(),'Electrode')]</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>CurrentPage.As(PokedexPage.class).GetPokemon(&quot;Electrode&quot;)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>CurrentPage.As(PokedexPage.class).GetPokemon()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>GetPokemon()</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/util/function/Consumer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="48" column="9" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/io/File.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="276" selection-start-line="276" selection-end-line="276" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/test/pages/MenuPrincipalPage.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/test/data/screenshotsValidar a pesquisa de médicos por especialidade e cidade - 18082019210887.png" />
-    <entry file="jar://$MAVEN_REPOSITORY$/net/sourceforge/jexcelapi/jxl/2.6.12/jxl-2.6.12.jar!/jxl/Workbook.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="54" selection-start-line="54" selection-end-line="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/test/data/screenshotsValidar a pesquisa de médicos por especialidade e cidade - 19082019100885.png" />
-    <entry file="file://$PROJECT_DIR$/src/test/test/features/RealizarPesquisaDeMedicos.feature" />
-    <entry file="file://$PROJECT_DIR$/src/test/test/steps/GuiaMedicoSteps.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/test/steps/MenuPrincipalSteps.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/test/pages/GuiaMedicoPage.java" />
-    <entry file="file://$PROJECT_DIR$/Challenge.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="21" column="38" lean-forward="true" selection-start-line="21" selection-start-column="38" selection-end-line="21" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/framework/config/extent-config.xml" />
-    <entry file="file://$PROJECT_DIR$/src/framework/utilities/ReportingUtil.java" />
-    <entry file="file://$PROJECT_DIR$/src/framework/base/Base.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="10" column="74" selection-start-line="10" selection-start-column="74" selection-end-line="10" selection-end-column="74" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/framework/base/BasePage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="7" column="5" lean-forward="true" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/framework/utilities/ExcelUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1074#1075#0" expanded="true" />
-            <element signature="e#1136#1137#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/framework/base/Browser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="379">
-          <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/cucumber/cucumber-core/4.2.0/cucumber-core-4.2.0.jar!/cucumber/runtime/Utils.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="30" selection-start-line="30" selection-end-line="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/test/data/PokedexSteps.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/test/data/MyStepdefs.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="3" column="2" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/framework/base/FrameworkInitialize.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="43" column="48" lean-forward="true" selection-start-line="43" selection-start-column="48" selection-end-line="44" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/framework/config/GlobalConfig.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="2" column="30" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/framework/config/ConfigReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="18" column="44" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/framework/config/Settings.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="20" column="31" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/framework/utilities/CucumberUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="98">
-          <caret line="9" column="25" lean-forward="true" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
-          <folding>
-            <element signature="e#331#347#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar!/org/openqa/selenium/WebDriver.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="22" column="15" selection-start-line="22" selection-start-column="15" selection-end-line="22" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/test/pages/AdvancedSearchPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar!/org/openqa/selenium/support/FindBy.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="45" column="18" selection-start-line="45" selection-start-column="15" selection-end-line="45" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/framework/base/DriverContext.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="212" column="55" selection-start-line="212" selection-start-column="29" selection-end-line="212" selection-end-column="55" />
-          <folding>
-            <element signature="method#toByValue#0;class#DriverContext#0" />
-            <element signature="e#880#1372#0" />
-            <element signature="method#WaitForPageToLoad#0;class#DriverContext#0" />
-            <element signature="class#1627:1930" />
-            <element signature="method#apply#0;class#1627:1930" />
-            <element signature="method#WaitForElementVisible#0;class#DriverContext#0" />
-            <element signature="e#2305#2452#0" />
-            <element signature="e#2473#2543#0" />
-            <element signature="method#WaitForElementTextVisibled#0;class#DriverContext#0" />
-            <element signature="method#WaitForElementTextDisplayed#0;class#DriverContext#0" />
-            <element signature="method#textDisplayed#0;class#DriverContext#0" />
-            <element signature="e#3116#3260#0" />
-            <element signature="method#WaitForElementEnabled#0;class#DriverContext#0" />
-            <element signature="method#ScrollDownUntilTextVisibled#0;class#DriverContext#0" />
-            <element signature="method#ScrollDownUntilElementVisibled#0;class#DriverContext#0" />
-            <element signature="method#ScrollDownUntilPixel#0;class#DriverContext#0" />
-            <element signature="method#WaitForElementToBeClickable#0;class#DriverContext#0" />
-            <element signature="method#GetFieldAttribute#0;class#DriverContext#0" />
-            <element signature="e#4631#4698#1" />
-            <element signature="method#SwitchWindow#0;class#DriverContext#0" />
-            <element signature="e#5204#5263#1" />
-            <element signature="e#5321#5414#1" />
-            <element signature="e#5420#5523#1" />
-            <element signature="method#SwitchToFrame#0;class#DriverContext#0" />
-            <element signature="method#RobotPressKey#0;class#DriverContext#0" />
-            <element signature="method#RobotMouseMove#0;class#DriverContext#0" />
-            <element signature="method#RobotMouseClick#0;class#DriverContext#0" />
-            <element signature="method#IsFileDownloaded#0;class#DriverContext#0" />
-            <element signature="e#6484#6703#1" />
-            <element signature="e#6545#6693#1" />
-            <element signature="method#MouseHoverAndClick#0;class#DriverContext#0" />
-            <element signature="method#MouseHover#0;class#DriverContext#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/test/pages/PokedexPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="458">
-          <caret line="32" column="19" selection-start-line="32" selection-start-column="19" selection-end-line="32" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#273#274#0" expanded="true" />
-            <element signature="e#311#312#0" expanded="true" />
-            <element signature="method#EnterText#0;class#PokedexPage#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/test/data/MyStepdefs.java" />
     <entry file="file://$PROJECT_DIR$/src/framework/utilities/LogUtil.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="800">
@@ -691,38 +558,367 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/test/runner/TestRunner.java">
+    <entry file="file://$PROJECT_DIR$/src/framework/config/ConfigReader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="23" column="10" selection-start-line="23" selection-start-column="10" selection-end-line="23" selection-end-column="10" />
+        <state relative-caret-position="210">
+          <caret line="23" column="66" selection-start-line="23" selection-start-column="66" selection-end-line="23" selection-end-column="66" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/test/steps/TestInitialize.java">
+    <entry file="file://$PROJECT_DIR$/src/framework/config/Settings.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="301">
-          <caret line="25" column="8" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="50" />
+        <state relative-caret-position="230">
+          <caret line="16" column="40" lean-forward="true" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/test/data/screenshotsSearch pokemon by given values - 18092019160927.png" />
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-942">
+          <caret line="12" column="17" lean-forward="true" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar!/org/openqa/selenium/WebDriver.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="114" column="20" selection-start-line="114" selection-start-column="20" selection-end-line="114" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Cookies.data">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/framework/config/GlobalConfig.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" column="110" selection-start-line="6" selection-start-column="110" selection-end-line="6" selection-end-column="110" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/test/data/screenshots/Open advanced search - 18092019170967.png" />
+    <entry file="file://$PROJECT_DIR$/src/framework/base/Browser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+          <folding>
+            <element signature="e#494#495#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/ExtentReports.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="427">
+          <caret line="95" column="16" selection-start-line="95" selection-start-column="16" selection-end-line="95" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/GherkinKeyword.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="118">
+          <caret line="52" selection-start-line="52" selection-end-line="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/test/data/extent.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/util/Date.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="118">
+          <caret line="616" selection-start-line="616" selection-end-line="616" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar!/org/openqa/selenium/support/pagefactory/internal/LocatingElementHandler.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/test/data/screenshots/Open advanced search - 10-10-08___18_09_2019.png" />
+    <entry file="file://$PROJECT_DIR$/src/test/test/data/screenshots/Open advanced search - 10-11-21___18_09_2019.png" />
+    <entry file="file://$PROJECT_DIR$/src/test/test/data/screenshots/Open advanced search - 10-17-07___18_09_2019.png" />
+    <entry file="file://$PROJECT_DIR$/src/test/test/pages/AdvancedSearchPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/test/data/report/Extent-Report.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/cucumber/cucumber-core/4.2.0/cucumber-core-4.2.0.jar!/cucumber/runtime/Timeout.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/cucumber/cucumber-java/4.2.0/cucumber-java-4.2.0.jar!/cucumber/runtime/java/JavaStepDefinition.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="48" selection-start-line="48" selection-end-line="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/cucumber/cucumber-core/4.2.0/cucumber-core-4.2.0.jar!/cucumber/runner/PickleStepDefinitionMatch.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="62" selection-start-line="62" selection-end-line="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/cucumber/cucumber-core/4.2.0/cucumber-core-4.2.0.jar!/cucumber/runner/PickleStepTestStep.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="302">
+          <caret line="51" selection-start-line="51" selection-end-line="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/cucumber/cucumber-core/4.2.0/cucumber-core-4.2.0.jar!/cucumber/runner/TestCase.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="59" selection-start-line="59" selection-end-line="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/cucumber/cucumber-core/4.2.0/cucumber-core-4.2.0.jar!/cucumber/runner/Runner.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="49" selection-start-line="49" selection-end-line="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/cucumber/cucumber-junit/4.2.0/cucumber-junit-4.2.0.jar!/cucumber/runtime/junit/PickleRunners.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="158" selection-start-line="158" selection-end-line="158" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/cucumber/cucumber-junit/4.2.0/cucumber-junit-4.2.0.jar!/cucumber/runtime/junit/FeatureRunner.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="262">
+          <caret line="73" selection-start-line="73" selection-end-line="73" />
+          <folding>
+            <element signature="e#2415#2416#0" expanded="true" />
+            <element signature="e#2450#2451#0" expanded="true" />
+            <element signature="e#2495#2496#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runners/ParentRunner.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="158" selection-start-line="158" selection-end-line="158" />
+          <folding>
+            <element signature="e#2111#2112#0" expanded="true" />
+            <element signature="e#2155#2156#0" expanded="true" />
+            <element signature="e#5951#6086#0" expanded="true" />
+            <element signature="e#6484#6648#0" expanded="true" />
+            <element signature="e#6647#6648#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/cucumber/cucumber-junit/4.2.0/cucumber-junit-4.2.0.jar!/cucumber/api/junit/Cucumber.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="97" selection-start-line="97" selection-end-line="97" />
+          <folding>
+            <element signature="e#4009#4010#0" expanded="true" />
+            <element signature="e#4044#4045#0" expanded="true" />
+            <element signature="e#4194#4416#0" expanded="true" />
+            <element signature="e#4415#4416#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/statements/RunBefores.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="386">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/statements/RunAfters.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="25" column="16" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/cucumber/cucumber-core/4.2.0/cucumber-core-4.2.0.jar!/cucumber/runner/TestStep.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="365">
+          <caret line="45" selection-start-line="45" selection-end-line="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/framework/utilities/CucumberUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="35" column="37" lean-forward="true" selection-start-line="35" selection-start-column="37" selection-end-line="35" selection-end-column="37" />
+          <folding>
+            <element signature="method#ConvertDataTableToDict#0;class#CucumberUtil#0" />
+            <element signature="e#641#912#1" />
+            <element signature="e#713#877#1" />
+            <element signature="e#1224#1287#1" />
+            <element signature="class#DataCollection#0;class#CucumberUtil#0" />
+            <element signature="method#DataCollection#0;class#DataCollection#0;class#CucumberUtil#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/framework/base/BasePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/test/data/screenshots/Search pokemon by given values - 12-25-17___21_09_2019.png" />
+    <entry file="file://$PROJECT_DIR$/src/framework/base/Base.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/test/data/screenshots/Search pokemon by given values - 12-40-18___21_09_2019.png" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar!/org/openqa/selenium/support/ui/ExpectedConditions.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="568">
+          <caret line="192" column="48" selection-start-line="192" selection-start-column="48" selection-end-line="192" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/framework/base/FrameworkInitialize.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="34" column="26" selection-start-line="34" selection-start-column="26" selection-end-line="34" selection-end-column="26" />
+          <folding>
+            <element signature="method#ConfigureAuth#0;class#FrameworkInitialize#0" />
+            <element signature="method#TakeScreenshot#0;class#FrameworkInitialize#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/test/runner/TestRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="26" column="9" lean-forward="true" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar!/org/openqa/selenium/support/FindBys.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/test/steps/TestInitialize.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="36" column="8" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar!/org/openqa/selenium/support/FindBy.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/cucumber/cucumber-core/4.2.0/cucumber-core-4.2.0.jar!/cucumber/runtime/Utils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/test/features/Pokedex.feature">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
+        <state relative-caret-position="320">
+          <caret line="16" column="24" lean-forward="true" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/test/steps/PokedexSteps.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="478">
-          <caret line="43" column="56" lean-forward="true" selection-start-line="43" selection-start-column="56" selection-end-line="43" selection-end-column="56" />
+        <state relative-caret-position="591">
+          <caret line="46" column="57" selection-start-line="46" selection-start-column="57" selection-end-line="46" selection-end-column="57" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#899#900#0" expanded="true" />
-            <element signature="e#930#931#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/framework/base/DriverContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
+          <folding>
+            <element signature="method#WaitForPageToLoad#0;class#DriverContext#0" />
+            <element signature="e#582#751#0" />
+            <element signature="method#WaitForElementVisible#0;class#DriverContext#0" />
+            <element signature="e#848#989#0" />
+            <element signature="e#1010#1080#0" />
+            <element signature="method#WaitForElementClickable#0;class#DriverContext#0" />
+            <element signature="e#1175#1324#0" />
+            <element signature="e#1358#1428#0" />
+            <element signature="method#WaitForAnimation#0;class#DriverContext#0" />
+            <element signature="e#1508#1644#0" />
+            <element signature="e#1665#1735#0" />
+            <element signature="method#AcceptCookies#0;class#DriverContext#0" />
+            <element signature="method#SteadinessOfElementLocated#0;class#DriverContext#0" />
+            <element signature="class#2138:3293" />
+            <element signature="method#apply#0;class#2138:3293" />
+            <element signature="e#2382#2621#1" />
+            <element signature="e#2408#2509#0" />
+            <element signature="e#2543#2603#0" />
+            <element signature="e#2643#2995#0" />
+            <element signature="e#2693#2977#1" />
+            <element signature="e#2837#2909#1" />
+            <element signature="e#3037#3093#0" />
+            <element signature="method#isOnTop#0;class#DriverContext#0" />
+            <element signature="method#GetElementDisplayedInArray#0;class#DriverContext#0" />
+            <element signature="e#4273#4365#1" />
+            <element signature="method#ScrollDownUntilElementVisibled#0;class#DriverContext#0" />
+            <element signature="method#CheckEachDisplayedElementInArray#0;class#DriverContext#0" />
+            <element signature="e#5825#5917#1" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/test/pages/PokedexPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="615">
+          <caret line="49" column="22" selection-start-line="49" selection-start-column="22" selection-end-line="49" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#PokedexPage#0;class#PokedexPage#0" />
+            <element signature="e#639#640#0" expanded="true" />
+            <element signature="e#690#691#0" expanded="true" />
+            <element signature="method#EnterText#0;class#PokedexPage#0" />
+            <element signature="method#OpenAdvancedSearch#0;class#PokedexPage#0" />
+            <element signature="e#1968#1969#0" expanded="true" />
+            <element signature="e#2001#2002#0" expanded="true" />
           </folding>
         </state>
       </provider>

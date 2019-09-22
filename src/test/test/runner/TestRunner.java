@@ -8,6 +8,7 @@ import cucumber.api.CucumberOptions;
 import cucumber.api.Scenario;
 import cucumber.api.junit.Cucumber;
 
+import framework.base.DriverContext;
 import org.junit.AfterClass;
 import org.junit.BeforeClass;
 import org.junit.runner.RunWith;
@@ -20,23 +21,12 @@ import java.io.UnsupportedEncodingException;
         monochrome = true,
         features = {"src/test/test/features/"},
         glue = {"test.steps"},
-
-        //tags = {"@wip"},
+        tags = {"@wip"},
         plugin = {"pretty", "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:" +
-                "src/test/test/data-driven/"
+                "src/test/test/data/report/"
         }
 )
 
 public class TestRunner {
 
-    @BeforeClass()
-    public static void ExtentReportCreation() throws UnsupportedEncodingException {
-        ExtentReports extentReports = new ExtentReports();
-        extentReports.flush();
-        extentReports.setGherkinDialect("pt");
-    }
-
-    @AfterClass()
-    public static void Screenshot(){
-    }
 }

@@ -10,28 +10,58 @@ import java.util.List;
 
 public class PokedexPage extends BasePage {
 
-    public PokedexPage(String pokemon) {
-        this.pokemon = pokemon;
+    public PokedexPage() {
+
     }
 
-    @FindBy(css = "//h5[.='%s']")
+    @FindBy(id = "searchInput")
+    WebElement txtSearchInput;
+    @FindBy(id = "search")
+    WebElement btnSearch;
+    @FindBy(css = ".filter-toggle-span .text")
+    WebElement btnShowAdvancedSearch;
 
-    private String pokemon;
-    private WebElement txtSearchInput = DriverContext.Driver.findElement(By.id("searchInput"));
-    private List<WebElement> pokemonInfo =
-            DriverContext.Driver.findElements(By.xpath(String.format("//h5[.='%s']", pokemon)));
-
-    public boolean IsOpen(){
+    public boolean IsOpen() {
         return txtSearchInput.isDisplayed();
     }
 
-    public void EnterText(String text){
+    public void EnterText(String text) {
         txtSearchInput.clear();
         txtSearchInput.sendKeys(text);
     }
 
-    public boolean GetPokemonDisplayedInList(String pokemon){
-        pokemon = this.pokemon;
-        return DriverContext.GetElementDisplayedInArray(pokemonInfo).isDisplayed();
+    public boolean GetPokemon(String pokemonName) {
+        String locatePokemon = String.format("//div[@class='pokemon-info']//h5[contains(text(),'%s')]", pokemonName);
+        DriverContext.WaitForAnimation(By.xpath("//h5"));
+        WebElement pokemon = DriverContext.Driver.findElement(By.xpath(locatePokemon));
+        //todo make scroll down to pokemon located
+        return pokemon.isDisplayed();
     }
+
+    public boolean GetPokemonList(String pokemonName) {
+        String locatePokemon = String.format("//div[@class='pokemon-info']//h5[contains(text(),'%s') or contains(text(),'%s')]",
+                pokemonName.toUpperCase(), pokemonName.toLowerCase());
+        DriverContext.WaitForAnimation(By.xpath("//h5"));
+
+        List<WebElement> pokemons = DriverContext.Driver.findElements(By.xpath(locatePokemon));
+
+        for (WebElement pokemon : pokemons)
+            if (pokemon.isDisplayed() {
+            DriverContext.ScrollDownToElementVisibled(pokemon);
+        }
+
+        return;
+    }
+
+    public AdvancedSearchPage OpenAdvancedSearch() {
+        DriverContext.WaitForElementVisible(btnShowAdvancedSearch);
+        btnShowAdvancedSearch.click();
+        return GetInstance(AdvancedSearchPage.class);
+    }
+
+    public void ClickBtnSearch() {
+        btnSearch.click();
+    }
+
+
 }

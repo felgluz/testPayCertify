@@ -30,11 +30,11 @@ public class CucumberUtil {
     }
 
     //Get all the rows
-    public static String GetCellValueWithRowIndex(String nomeColuna, int numeroLinha){
+    public static String GetCellValueWithRowIndex(String columnName, int rowName){
         final String[] columnValue = {null};
 
         _dataCollection.forEach(x -> {
-            if(x.ColumnName.equals(nomeColuna) && x.RowNumber == numeroLinha){
+            if(x.ColumnName.equals(columnName) && x.RowNumber == rowName){
                 columnValue[0] = x.ColumnValue;
             }
         });

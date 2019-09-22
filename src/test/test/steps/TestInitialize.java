@@ -22,14 +22,11 @@ public class TestInitialize extends FrameworkInitialize {
         //Log
         Settings.Logs = new LogUtil();
         Settings.Logs.CreateLogFile();
-
         Settings.Logs.Write("Test cicle created");
         InitializeBrowser(Settings.BrowserType);
         Settings.Logs.Write("Browser initialized");
         Settings.ExcelSheet = new ExcelUtil(Settings.ExcelSheetPath);
-
         DriverContext.Browser.Maximize();
-        DriverContext.AcceptCookies();
     }
 
     @After
