@@ -16,10 +16,10 @@ Feature: Pokédex
     When user searches a pokemon by "<search>"
     Then the result "<result>" is displayed
     Examples:
-      | search  | result           |
+      | search | result           |
       #| 0101    | Electrode        |
       #| Pikachu | Pikachu          |
-      | p       | List of pokemons |
+      | p      | List of pokemons |
       #|                    | List of pokemons   |
       #| Fire               | no pokemon matched |
       #| /                  | no pokemon matched |

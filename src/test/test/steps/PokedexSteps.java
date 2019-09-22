@@ -9,8 +9,11 @@ import framework.config.Settings;
 import org.junit.Assert;
 import test.pages.AdvancedSearchPage;
 import test.pages.PokedexPage;
+import framework.base.SharedDataBetweenPage;
 
 public class PokedexSteps extends Base {
+
+    private SharedDataBetweenPage sharedDataBetweenPage;
 
     @Given("user access the pokedex page")
     public void userAccessThePokedexPage()   {
@@ -27,6 +30,8 @@ public class PokedexSteps extends Base {
 
     @When("user searches a pokemon by {string}")
     public void userSearchesAPokemonBy(String search) {
+        sharedDataBetweenPage = new SharedDataBetweenPage(search);
+        sharedDataBetweenPage.setStringData(search);
         CurrentPage.As(PokedexPage.class).EnterText(search);
         CurrentPage.As(PokedexPage.class).ClickBtnSearch();
     }
@@ -37,17 +42,16 @@ public class PokedexSteps extends Base {
         switch (result) {
             case "Electrode":
                 Assert.assertTrue("Pokemon not displayed",
-                        CurrentPage.As(PokedexPage.class).GetPokemon(result));
+                        CurrentPage.As(PokedexPage.class).GetPokemon(sharedDataBetweenPage.getStringData()));
                 break;
             case "Pikachu":
                 Assert.assertTrue("Pokemon not displayed",
-                        CurrentPage.As(PokedexPage.class).GetPokemon("Pikachu"));
+                        CurrentPage.As(PokedexPage.class).GetPokemon(sharedDataBetweenPage.getStringData()));
                 break;
-            case "p":
-                CurrentPage.As(PokedexPage.class).GetPokemonList("p");
+            case "List of pokemons":
+                CurrentPage.As(PokedexPage.class).GetPokemonList(sharedDataBetweenPage.getStringData());
                 break;
         }
-
     }
 
     @Given("user opens the advanced search")

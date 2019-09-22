@@ -134,16 +134,14 @@ public class DriverContext {
         js.executeScript("arguments[0].scrollIntoView();", element);
     }
 
-    public static WebElement CheckEachDisplayedElementInArray(List<WebElement> elements) {
-        WebDriverWait wait = new WebDriverWait(Driver, timeOutInSeconds);
-        for (WebElement element : elements)
-            if (
-                    !element.isDisplayed()
-                            && element.getSize().getHeight() > 0
-                            && element.getSize().getWidth() > 0) {
-                return wait.until(ExpectedConditions.visibilityOf(element));
+    public static boolean GetStatusOfEachElementVisibleInArray(List<WebElement> elements) {
+        for(WebElement element : elements){
+            if(!element.isDisplayed()){
+                return false;
             }
-        throw new NullPointerException();
+            DriverContext.ScrollDownToElementVisibled(element);
+        }
+        return true;
     }
 }
 
