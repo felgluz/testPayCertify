@@ -1,6 +1,5 @@
 package framework.base;
 
-
 import org.openqa.selenium.*;
 import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.Point;

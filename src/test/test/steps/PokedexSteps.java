@@ -40,7 +40,6 @@ public class PokedexSteps extends Base {
 
     @Then("the result {string} is displayed")
     public void theResultIsDisplayed(String result) {
-
         CurrentPage = GetInstance(PokedexPage.class).As(PokedexPage.class);
         switch (result) {
             case "Electrode":
@@ -68,6 +67,11 @@ public class PokedexSteps extends Base {
         CurrentPage = GetInstance(AdvancedSearchPage.class);
     }
 
+    @When("user clicks on surprise me button")
+    public void userClicksOnSurpriseMeButton() {
+        CurrentPage.As(PokedexPage.class).ClickBtnSurpriseMe();
+    }
+
     @Then("a list with {int} pokemons is shown")
     public void aListWithPokemonsAreShown(int numberOfPokemons) {
         Assert.assertEquals(numberOfPokemons, CurrentPage.As(PokedexPage.class).GetNumberOfPokemons());
@@ -83,10 +87,6 @@ public class PokedexSteps extends Base {
         CurrentPage.As(AdvancedSearchPage.class).SetNumberRange(minRange, maxRange);
     }
 
-    @When("user clicks on surprise me button")
-    public void userClicksOnSurpriseMeButton() {
-        CurrentPage.As(PokedexPage.class).ClickBtnSurpriseMe();
-    }
 
     @When("change the sort filter to {string}")
     public void changeTheSortFilterTo(String resultFilter) {

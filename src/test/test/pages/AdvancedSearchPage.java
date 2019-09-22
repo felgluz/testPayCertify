@@ -25,7 +25,6 @@ public class AdvancedSearchPage extends BasePage {
 
     @FindBy(xpath = "//label[contains(text(),'All')]")
     WebElement dropDownAbilities;
-
     @FindBy(id = "search")
     List<WebElement> btnSearch;
 
@@ -50,9 +49,6 @@ public class AdvancedSearchPage extends BasePage {
             dropDownAbilities.click();
 
             WebElement options = DriverContext.Driver.findElement(By.cssSelector(".viewport"));
-
-
-            dropDownAbilities.click();
             DriverContext.Driver.findElement(By.xpath(String.format("//select[@id='abilities']/option[contains(text(),'%s')]", ability))).click();
         }
         if (height.equals("Medium and Tall")) {

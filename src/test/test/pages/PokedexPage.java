@@ -18,7 +18,7 @@ public class PokedexPage extends BasePage {
     WebElement txtSearchInput;
     @FindBy(id = "search")
     WebElement btnSearch;
-    @FindBy(css = ".filterOptions-toggle-span .text")
+    @FindBy(xpath = "//b[contains(text(),'Show Advanced Search')]")
     WebElement btnShowAdvancedSearch;
     @FindBy(css = "[class='alert alert-error']")
     WebElement alertNoPokemonMatched;
@@ -56,7 +56,7 @@ public class PokedexPage extends BasePage {
     }
 
     public void ClickBtnSearch() {
-        DriverContext.ScrollDownToElementVisibled(btnSearch);
+        //DriverContext.ScrollDownToElementVisibled(btnSearch);
         DriverContext.WaitForElementVisible(btnSearch);
         btnSearch.click();
     }
@@ -66,7 +66,7 @@ public class PokedexPage extends BasePage {
     }
 
     public int GetNumberOfPokemons() {
-        DriverContext.WaitForAnimation(animation);
+        DriverContext.WaitForAnimation(By.xpath("//h5"));
         return resultOfPokemons.size();
     }
 
