@@ -14,37 +14,18 @@ import java.util.Date;
 
 public class FrameworkInitialize extends Base {
 
-    //TODO delete
-    private void ConfigureAuth() {
-        DriverContext.Driver.get("chrome-extension://ggmdpepbjljkkkdaklfihhngmmgmpggp/options.html");
-
-        String windowHandle = DriverContext.Driver.getWindowHandle();
-        DriverContext.Driver.switchTo().window(windowHandle);
-
-        DriverContext.Driver.findElement(By.id("login")).sendKeys("TR662920");
-        DriverContext.Driver.findElement(By.id("password")).sendKeys("Q1mchTyd");
-        DriverContext.Driver.findElement(By.id("retry")).clear();
-        DriverContext.Driver.findElement(By.id("retry")).sendKeys("5");
-        DriverContext.Driver.findElement(By.id("save")).click();
-    }
-
     public void InitializeBrowser(Browser.BrowserType browserType) {
 
         WebDriver driver = null;
         switch (browserType) {
             case Chrome: {
-                //todo set dynamic location
-                System.setProperty("webdriver.chrome.driver", "C:\\Users\\Stefanini" +
-                        "\\Documents\\Libs\\chromedriver.exe");
-                /*ChromeOptions cOptions = new ChromeOptions();
-                cOptions.addExtensions(new File("C:\\Users\\Stefanini\\Documents" +
-                        "\\Libs\\Proxy-Auto-Auth_v2.0.crx"));
-                driver = new ChromeDriver(cOptions);*/
+                System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "\\chromedriver.exe");
                 driver = new ChromeDriver();
                 break;
             }
             case Firefox: {
-                //TODO set others drivers
+                System.setProperty("webdriver.gecko.driver", System.getProperty("user.dir") + "\\geckodriver.exe");
+                driver = new ChromeDriver();
                 break;
             }
         }
@@ -53,9 +34,6 @@ public class FrameworkInitialize extends Base {
 
         //Browser
         DriverContext.Browser = new Browser(driver);
-
-        //ConfigureAuth();
-
     }
 
 

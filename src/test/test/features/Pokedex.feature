@@ -1,6 +1,6 @@
 Feature: Pokédex
-  As a pokedex user,
-  I want to search a pokemon,
+  As a pokedex user
+  I want to search a pokemon
   So I can see it's details and catch em' all!
 
   Background: Access pokedex page
@@ -26,7 +26,7 @@ Feature: Pokédex
     When set number range to "-1" and "0"
     And click on search button in advanced search
     Then the result "No pokemon matched" is displayed
-    
+
   Scenario: Click on surprise me button
     When user clicks on surprise me button
     Then a list with 12 pokemons is shown

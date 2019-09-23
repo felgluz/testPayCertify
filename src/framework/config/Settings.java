@@ -18,6 +18,5 @@ public class Settings {
 
     public static String ReportConfigPath;
 
-    //TODO use the project path
     public static String ProjectPath;
 }

@@ -7,6 +7,7 @@ import cucumber.api.java.en.When;
 import framework.base.Base;
 import framework.base.DriverContext;
 import framework.config.Settings;
+import framework.utilities.LogUtil;
 import org.junit.Assert;
 import test.pages.AdvancedSearchPage;
 import test.pages.PokedexPage;
@@ -20,6 +21,8 @@ public class PokedexSteps extends Base {
     public void userAccessThePokedexPage() {
         DriverContext.Browser.GoToUrl(Settings.AUT + "/pokedex");
         DriverContext.WaitForPageToLoad();
+        Settings.Logs.Write("Pokedex page opened");
+
         DriverContext.AcceptCookies();
     }
 
@@ -40,6 +43,7 @@ public class PokedexSteps extends Base {
 
     @Then("the result {string} is displayed")
     public void theResultIsDisplayed(String result) {
+
         CurrentPage = GetInstance(PokedexPage.class).As(PokedexPage.class);
         switch (result) {
             case "Electrode":
@@ -59,6 +63,7 @@ public class PokedexSteps extends Base {
                         CurrentPage.As(PokedexPage.class).AlertNoPokemonMatchedYourSearch());
                 break;
         }
+        Settings.Logs.Write("Result of pokemons");
     }
 
     @Given("user opens the advanced search")
@@ -86,7 +91,6 @@ public class PokedexSteps extends Base {
     public void setNumberRangeToAnd(String minRange, String maxRange) {
         CurrentPage.As(AdvancedSearchPage.class).SetNumberRange(minRange, maxRange);
     }
-
 
     @When("change the sort filter to {string}")
     public void changeTheSortFilterTo(String resultFilter) {

@@ -21,7 +21,6 @@ import java.io.UnsupportedEncodingException;
         monochrome = true,
         features = {"src/test/test/features/"},
         glue = {"test.steps"},
-        tags = {"@wip"},
         plugin = {"pretty", "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:" +
                 "src/test/test/data/report/"
         }
